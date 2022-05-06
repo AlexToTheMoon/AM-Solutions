@@ -7,4 +7,4 @@
 * * *
 [Regen Services | https://www.theamsolutions.info/regen-services ](https://www.theamsolutions.info/regen-services)
 * * *
-[Meme Services | https://www.theamsolutions.info/meme-services ](https://www.theamsolutions.info/regen-services)
+[Meme Services | https://www.theamsolutions.info/meme-services ](https://www.theamsolutions.info/meme-services)
