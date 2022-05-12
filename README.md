@@ -12,6 +12,12 @@
 [Meme Services | https://www.theamsolutions.info/meme-services ](https://www.theamsolutions.info/meme-services)
 
 # AM-Solutions Testnet services
+[Archway Torii-1 Snapshot service](https://torii1snap.theamsolutions.info)
+* * *
+[Archway Torii-1 Explorer](https://explorer.theamsolutions.info)
+* * *
+[Archway Torii-1 Wallet](https://tw.theamsolutions.info/welcome)
+* * *
 [Cosmic testnet - https://www.theamsolutions.info/cosmic-service](https://www.theamsolutions.info/cosmic-service)
 * * *
 [Quicksilver testnet - https://www.theamsolutions.info/quicksilver-service](https://www.theamsolutions.info/quicksilver-service)
