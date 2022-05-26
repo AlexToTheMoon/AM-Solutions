@@ -1,11 +1,11 @@
 # AM-Solutions Mainnet Services
 [AM Solutions - https://www.theamsolutions.info](https://www.theamsolutions.info)
 * * *
-[Umee Services | https://www.theamsolutions.info/umee-services ](https://www.theamsolutions.info/umee-services)
-* * *
 [Evmos Services | https://www.theamsolutions.info/evmos-services ](https://www.theamsolutions.info/evmos-services)
 * * *
 [Evmos Cosmovisor Setup Upgrade v4.0.1 | https://www.theamsolutions.info/evmos-cosmovisor](https://www.theamsolutions.info/evmos-cosmovisor)
+* * *
+[Umee Services | https://www.theamsolutions.info/umee-services ](https://www.theamsolutions.info/umee-services)
 * * *
 [Regen Services | https://www.theamsolutions.info/regen-services ](https://www.theamsolutions.info/regen-services)
 * * *
