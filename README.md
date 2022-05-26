@@ -1,6 +1,5 @@
 # ["AM Solutions"](https://www.theamsolutions.info) Mainnet Services
-[AM Solutions - https://www.theamsolutions.info](https://www.theamsolutions.info)
-* * *
+
 [Evmos Services | https://www.theamsolutions.info/evmos-services ](https://www.theamsolutions.info/evmos-services)
 * * *
 [Evmos Cosmovisor Setup Upgrade v4.0.1 | https://www.theamsolutions.info/evmos-cosmovisor](https://www.theamsolutions.info/evmos-cosmovisor)
