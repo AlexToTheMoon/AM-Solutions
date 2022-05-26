@@ -12,6 +12,8 @@
 [Meme Services | https://www.theamsolutions.info/meme-services ](https://www.theamsolutions.info/meme-services)
 
 # AM-Solutions Testnet services
+[EVMOS Testnet State-Sync service](https://www.theamsolutions.info/evmos-testnet)
+* * *
 [Archway Torii-1 Snapshot service](https://www.theamsolutions.info/archway-service)
 * * *
 [Archway Torii-1 Explorer](https://explorer.theamsolutions.info)
