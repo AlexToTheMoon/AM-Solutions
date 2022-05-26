@@ -14,6 +14,8 @@
 # AM-Solutions Testnet services
 [EVMOS Testnet State-Sync service](https://www.theamsolutions.info/evmos-testnet)
 * * *
+[Umee (Umeemania) Testnet State-Sync service](https://www.theamsolutions.info/umeemania-statesync)
+* * *
 [Archway Torii-1 Snapshot service](https://www.theamsolutions.info/archway-service)
 * * *
 [Archway Torii-1 Explorer](https://explorer.theamsolutions.info)
