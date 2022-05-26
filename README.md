@@ -5,7 +5,7 @@
 * * *
 [Evmos Services | https://www.theamsolutions.info/evmos-services ](https://www.theamsolutions.info/evmos-services)
  + 
-[Evmos Cosmovisor Setup (Upgrade v4.0.1)](https://www.theamsolutions.info/evmos-cosmovisor)
+[Evmos Cosmovisor Setup (Upgrade v4.0.1 | https://www.theamsolutions.info/evmos-cosmovisor)](https://www.theamsolutions.info/evmos-cosmovisor)
 * * *
 [Regen Services | https://www.theamsolutions.info/regen-services ](https://www.theamsolutions.info/regen-services)
 * * *
@@ -24,8 +24,8 @@
 * * *
 [Archway Torii-1 Wallet](https://tw.theamsolutions.info/welcome)
 * * *
-[Cosmic testnet - https://www.theamsolutions.info/cosmic-service](https://www.theamsolutions.info/cosmic-service)
+[Cosmic testnet State Sync service](https://www.theamsolutions.info/cosmic-service)
 * * *
-[Quicksilver testnet - https://www.theamsolutions.info/quicksilver-service](https://www.theamsolutions.info/quicksilver-service)
+[Quicksilver testnet State Sync service](https://www.theamsolutions.info/quicksilver-service)
 * * *
-[Pylons testnet - https://www.theamsolutions.info/pylons-service](https://www.theamsolutions.info/pylons-service)
+[Pylons testnet State Sync / Snapshot services](https://www.theamsolutions.info/pylons-service)
