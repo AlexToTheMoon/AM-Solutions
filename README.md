@@ -10,7 +10,7 @@
 * * *
 [Meme Services | https://www.theamsolutions.info/meme-services ](https://www.theamsolutions.info/meme-services)
 
-# AM-Solutions Testnet services
+# "AM-Solutions" Testnet services
 [EVMOS Testnet State-Sync service](https://www.theamsolutions.info/evmos-testnet)
 * * *
 [Umee (Umeemania) Testnet State-Sync service](https://www.theamsolutions.info/umeemania-statesync)
