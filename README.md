@@ -1,4 +1,4 @@
-# ["AM Solutions"](https://www.theamsolutions.info) Mainnet Services
+# "AM Solutions" Mainnet Services
 
 [Evmos Services | https://www.theamsolutions.info/evmos-services ](https://www.theamsolutions.info/evmos-services)
 * * *
