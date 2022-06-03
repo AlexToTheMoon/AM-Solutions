@@ -15,6 +15,8 @@
 * * *
 [Umee (Umeemania) Testnet State-Sync service](https://www.theamsolutions.info/umeemania-statesync)
 * * *
+[SUBSPACE "Gemini" testnet Guide](https://www.theamsolutions.info/subspace-gemini)
+* * *
 [Celestia Mamaki Testnet Validator Node Guide](https://www.theamsolutions.info/celestia)
 * * *
 [Archway Torii-1 Snapshot service](https://www.theamsolutions.info/archway-service)
