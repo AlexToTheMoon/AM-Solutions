@@ -19,6 +19,8 @@
 * * *
 [Celestia Mamaki Testnet Validator Node Guide](https://www.theamsolutions.info/celestia)
 * * *
+[Kujira Node Guide Via State-Sync + Snapshot service](https://www.theamsolutions.info/kujirad)
+* * *
 [Archway Torii-1 Snapshot service](https://www.theamsolutions.info/archway-service)
 * * *
 [Archway Torii-1 Explorer](https://explorer.theamsolutions.info)
