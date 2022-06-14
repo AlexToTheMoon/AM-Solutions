@@ -19,7 +19,9 @@
 * * *
 [Celestia Mamaki Testnet Validator Node Guide](https://www.theamsolutions.info/celestia)
 * * *
-[Kujira Node Guide Via State-Sync + Snapshot service](https://www.theamsolutions.info/kujirad)
+[Kujira node setup Guide Via State-Sync + Snapshot service](https://www.theamsolutions.info/kujira)
+* * *
+[Sei-Network node setup Guide Via State-Sync](https://www.theamsolutions.info/sei-network)
 * * *
 [Archway Torii-1 Snapshot service](https://www.theamsolutions.info/archway-service)
 * * *
