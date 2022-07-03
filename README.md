@@ -6,6 +6,8 @@
 * * *
 [Umee Services | https://www.theamsolutions.info/umee-services ](https://www.theamsolutions.info/umee-services)
 * * *
+[Kujira Services, guide + State-Sync + Snapshot](https://www.theamsolutions.info/kujira)
+* * *
 [Regen Services | https://www.theamsolutions.info/regen-services ](https://www.theamsolutions.info/regen-services)
 * * *
 [Meme Services | https://www.theamsolutions.info/meme-services ](https://www.theamsolutions.info/meme-services)
@@ -18,8 +20,6 @@
 [SUBSPACE "Gemini" testnet Guide](https://www.theamsolutions.info/subspace-gemini)
 * * *
 [Celestia Mamaki Testnet Validator Node Guide](https://www.theamsolutions.info/celestia)
-* * *
-[Kujira node setup Guide Via State-Sync + Snapshot service](https://www.theamsolutions.info/kujira)
 * * *
 [Sei-Network node setup Guide Via State-Sync](https://www.theamsolutions.info/sei-network)
 * * *
