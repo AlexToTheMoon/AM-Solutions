@@ -1,16 +1,16 @@
-# "AM Solutions" Mainnet Services
+# "AM Solutions" Rpc Api State-Sync Data Snap Services
 
-[Evmos Services | https://www.theamsolutions.info/evmos-services ](https://www.theamsolutions.info/evmos-services)
+[Evmos | https://www.theamsolutions.info/evmos-services ](https://www.theamsolutions.info/evmos-services)
 * * *
 [Evmos Cosmovisor Setup Upgrade v4.0.1 | https://www.theamsolutions.info/evmos-cosmovisor](https://www.theamsolutions.info/evmos-cosmovisor)
 * * *
-[Umee Services | https://www.theamsolutions.info/umee-services ](https://www.theamsolutions.info/umee-services)
+[Umee | https://www.theamsolutions.info/umee-services ](https://www.theamsolutions.info/umee-services)
 * * *
-[Kujira Services, guide + State-Sync + Snapshot](https://www.theamsolutions.info/kujira)
+[Kujira | https://www.theamsolutions.info/kujira ](https://www.theamsolutions.info/kujira)
 * * *
-[Regen Services | https://www.theamsolutions.info/regen-services ](https://www.theamsolutions.info/regen-services)
+[Regen | https://www.theamsolutions.info/regen-services ](https://www.theamsolutions.info/regen-services)
 * * *
-[Meme Services | https://www.theamsolutions.info/meme-services ](https://www.theamsolutions.info/meme-services)
+[Meme | https://www.theamsolutions.info/meme-services ](https://www.theamsolutions.info/meme-services)
 
 # "AM-Solutions" Testnet services
 [EVMOS Testnet State-Sync service](https://www.theamsolutions.info/evmos-testnet)
