@@ -19,7 +19,7 @@
 * * *
 [SUBSPACE "Gemini" testnet Guide](https://www.theamsolutions.info/subspace-gemini)
 * * *
-[Stride Testnet Validator Node Guide] (https://www.theamsolutions.info/stride)
+[Stride Testnet Validator Node Guide](https://www.theamsolutions.info/stride)
 * * *
 [Celestia Mamaki Testnet Validator Node Guide](https://www.theamsolutions.info/celestia)
 * * *
