@@ -19,9 +19,9 @@
 * * *
 [Umee (Umeemania) Testnet State-Sync service](https://www.theamsolutions.info/umeemania-statesync)
 * * *
-[SUBSPACE "Gemini" testnet Guide](https://www.theamsolutions.info/subspace-gemini)
-* * *
 [Quicksilver testnet State Sync service](https://www.theamsolutions.info/quicksilver-service)
+* * *
+[SUBSPACE "Gemini" testnet Guide](https://www.theamsolutions.info/subspace-gemini)
 * * *
 [Celestia Mamaki Testnet Validator Node Guide](https://www.theamsolutions.info/celestia)
 * * *
