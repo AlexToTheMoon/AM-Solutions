@@ -6,7 +6,7 @@
 * * *
 [Umee | https://www.theamsolutions.info/umee-services ](https://www.theamsolutions.info/umee-services)
 * * *
-[Umee Peggo relayer notificator ](https://github.com/AlexToTheMoon/Peggo-Notificator)
+[Umee Peggo relayer notificator | https://github.com/AlexToTheMoon/Peggo-Notificator ](https://github.com/AlexToTheMoon/Peggo-Notificator)
 * * *
 [Kujira | https://www.theamsolutions.info/kujira ](https://www.theamsolutions.info/kujira)
 * * *
