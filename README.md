@@ -19,7 +19,7 @@
 * * *
 [Umee (Umeemania) Testnet State-Sync service](https://www.theamsolutions.info/umeemania-statesync)
 * * *
-[Quicksilver testnet State Sync service](https://www.theamsolutions.info/quicksilver-service)
+[Quicksilver State-Sync, Data snap, RPC /API services](https://www.theamsolutions.info/quicksilver-service)
 * * *
 [SUBSPACE "Gemini" testnet Guide](https://www.theamsolutions.info/subspace-gemini)
 * * *
