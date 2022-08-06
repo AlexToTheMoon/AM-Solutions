@@ -21,7 +21,7 @@
 * * *
 [SUBSPACE "Gemini" testnet Guide](https://www.theamsolutions.info/subspace-gemini)
 * * *
-[Stride Testnet Validator Node Guide](https://www.theamsolutions.info/stride)
+[Quicksilver testnet State Sync service](https://www.theamsolutions.info/quicksilver-service)
 * * *
 [Celestia Mamaki Testnet Validator Node Guide](https://www.theamsolutions.info/celestia)
 * * *
@@ -35,6 +35,6 @@
 * * *
 [Cosmic testnet State Sync service](https://www.theamsolutions.info/cosmic-service)
 * * *
-[Quicksilver testnet State Sync service](https://www.theamsolutions.info/quicksilver-service)
+[Stride Testnet Validator Node Guide](https://www.theamsolutions.info/stride)
 * * *
 [Pylons testnet State Sync / Snapshot services](https://www.theamsolutions.info/pylons-service)
