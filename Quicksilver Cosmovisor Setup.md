@@ -46,7 +46,7 @@ LimitNOFILE=4096
 Environment="DAEMON_NAME=quicksilverd"
 Environment="DAEMON_HOME=$HOME/.quicksilverd"
 Environment="DAEMON_RESTART_AFTER_UPGRADE=true"
-Environment="DAEMON_ALLOW_DOWNLOAD_BINARIES=true"
+Environment="DAEMON_ALLOW_DOWNLOAD_BINARIES=false"
 Environment="UNSAFE_SKIP_BACKUP=false"
 
 [Install]
