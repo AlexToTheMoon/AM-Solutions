@@ -1,4 +1,4 @@
-# How to move node from basic run to cosmovisor and prepare for upgrade.
+# How to move node from basic run to Cosmovisor service and prepare for upgrade.
 ## Testnet "INNUENDO-1" v. v0.6.4-rc.0 >> v0.6.6
 
 *If any commnets or issues U can contact me at* **Discord** - AlexeyM#5409
@@ -14,3 +14,70 @@ make cosmovisor
 cp cosmovisor/cosmovisor $HOME/go/bin/cosmovisor
 cd $HOME
 ```
+Create cosmovisor directiories
+```bash
+mkdir -p ~/.quicksilverd/cosmovisor/genesis/bin
+mkdir -p ~/.quicksilverd/cosmovisor/upgrades/v0.6.6/bin/
+```
+Setting up some ENVIRONMENT VARIABLES
+```bash
+echo "export DAEMON_NAME=quicksilverd" >> ~/.profile
+echo "export DAEMON_HOME=$HOME/.quicksilverd" >> ~/.profile
+source ~/.profile
+```
+Copy existing version `v0.6.4-rc.0` into cosmovisor launch folder
+```bash
+cp $(which quicksilverd) ~/.quicksilverd/cosmovisor/genesis/bin
+cosmovisor version
+```
+Create a cosmovisor systemd service
+```bash
+sudo tee /etc/systemd/system/cosmovisor-qck.service > /dev/null <<EOF
+[Unit]
+Description=Cosmovisor Process Manager
+After=network.target
+
+[Service]
+User=$USER
+ExecStart=$(which cosmovisor) start
+Restart=always
+LimitNOFILE=4096
+
+Environment="DAEMON_NAME=quicksilverd"
+Environment="DAEMON_HOME=$HOME/.quicksilverd"
+Environment="DAEMON_RESTART_AFTER_UPGRADE=true"
+Environment="DAEMON_ALLOW_DOWNLOAD_BINARIES=true"
+Environment="UNSAFE_SKIP_BACKUP=false"
+
+[Install]
+WantedBy=multi-user.target
+EOF
+```
+Now stop basic quicksilverd.service and run it from cosmovisor
+```bash
+sudo systemctl stop quicksilverd.service
+sudo systemctl disable quicksilverd.service
+sudo systemctl daemon-reload
+sudo systemctl enable cosmovisor-qck.service
+sudo systemctl restart cosmovisor-qck.service
+journalctl -u quicksilverd.service -f -o cat
+```
+Prepare new binaries for upgrade
+```bash
+cd quicksilver
+git pull
+git checkout v0.6.6
+make install 
+quicksilverd version
+```
+Move new binaries to upgrade folder
+```bash
+cp $(which quicksilverd) ~/.quicksilverd/cosmovisor/upgrades/v0.6.6/bin
+```
+Restart cosmovisor service and wait for upgrage height 
+```bash
+sudo systemctl restart cosmovisor-qck.service
+```
+
+
+
