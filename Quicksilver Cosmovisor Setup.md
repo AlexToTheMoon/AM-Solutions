@@ -14,7 +14,7 @@ make cosmovisor
 cp cosmovisor/cosmovisor $HOME/go/bin/cosmovisor
 cd $HOME
 ```
-Create cosmovisor directiories
+Create cosmovisor subfolders
 ```bash
 mkdir -p ~/.quicksilverd/cosmovisor/genesis/bin
 mkdir -p ~/.quicksilverd/cosmovisor/upgrades/v0.6.6/bin/
