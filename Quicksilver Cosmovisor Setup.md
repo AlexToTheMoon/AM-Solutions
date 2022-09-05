@@ -74,10 +74,17 @@ Move new binaries to upgrade folder
 ```bash
 cp $(which quicksilverd) ~/.quicksilverd/cosmovisor/upgrades/v0.6.6/bin
 ```
+Double check U got new binaries at upgrade folder. Output expected `v0.6.6`
+```bash
+$HOME/.quicksilverd/cosmovisor/upgrades/v0.6.6/bin/quicksilverd version
+```
 Restart cosmovisor service and wait for upgrage height 
 ```bash
 sudo systemctl restart cosmovisor-qck.service
 ```
 
+<p align="center">
+    GOOD LUCK
+</p>
 
 
