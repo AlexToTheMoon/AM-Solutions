@@ -21,8 +21,8 @@ mkdir -p ~/.quicksilverd/cosmovisor/upgrades/v0.6.6/bin/
 ```
 Setting up some ENVIRONMENT VARIABLES
 ```bash
-echo "export DAEMON_NAME=quicksilverd" >> ~/.profile
-echo "export DAEMON_HOME=$HOME/.quicksilverd" >> ~/.profile
+echo "export DAEMON_NAME=quicksilverd" >> ~/.bash_profile
+echo "export DAEMON_HOME=$HOME/.quicksilverd" >> ~/.bash_profile
 source ~/.profile
 ```
 Copy existing version `v0.6.4-rc.0` into cosmovisor launch folder
