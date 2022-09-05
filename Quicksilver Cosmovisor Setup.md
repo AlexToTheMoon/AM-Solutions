@@ -66,7 +66,7 @@ Prepare new binaries for upgrade
 ```bash
 cd quicksilver
 git pull
-git checkout v0.6.6
+git checkout v0.6.6-hotfix
 make install 
 quicksilverd version
 ```
@@ -74,7 +74,7 @@ Move new binaries to upgrade folder
 ```bash
 cp $(which quicksilverd) ~/.quicksilverd/cosmovisor/upgrades/v0.6.6/bin
 ```
-Double check U got new binaries at upgrade folder. Output expected `v0.6.6`
+Double check U got new binaries at upgrade folder. Output expected `v0.6.6-hotfix`
 ```bash
 $HOME/.quicksilverd/cosmovisor/upgrades/v0.6.6/bin/quicksilverd version
 ```
