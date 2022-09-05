@@ -60,7 +60,7 @@ sudo systemctl disable quicksilverd.service
 sudo systemctl daemon-reload
 sudo systemctl enable cosmovisor-qck.service
 sudo systemctl restart cosmovisor-qck.service
-journalctl -u quicksilverd.service -f -o cat
+journalctl -u cosmovisor-qck.service -f -o cat
 ```
 Prepare new binaries for upgrade
 ```bash
