@@ -1,5 +1,5 @@
 # How to move node from basic run to Cosmovisor service and prepare for an upgrade.
-## Testnet "INNUENDO-1"  v0.6.4-rc.0 >> v0.6.6-hotfix
+## Testnet "INNUENDO-1"  v0.6.4-rc.0 >> v0.6.6-hotfix.2
 
 *If any commnets or issues U can contact me at* **Discord** - AlexeyM#5409
 
