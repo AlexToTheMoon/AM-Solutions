@@ -1,0 +1,48 @@
+#!/bin/bash
+
+while true
+do
+
+DATE=$(date +%Y-%m-%d-%H-%M)
+DATE2=$(date +%Y-%m-%d)
+DATADIR=/root/.near
+BACKUPDIR=/root/.near/backups/${DATE2}
+
+mkdir -p $BACKUPDIR
+
+sudo systemctl stop neard.service
+
+wait
+
+echo "NEAR node was stopped for backuping at ${DATE}" >> ${DATADIR}/near-bcklogs.txt
+
+if [ -d "$BACKUPDIR" ]; then
+    echo "Backup started confirm" >> ${DATADIR}/near-bcklogs.txt
+      tar cfv ${BACKUPDIR}/near-snap_${DATE}.tar ${DATADIR}/data
+fi
+
+if  [ -f ${BACKUPDIR}/near-snap_${DATE2}* ]; then
+    echo "Backup completed" #>>${DATADIR}/near-bcklogs.txt
+else
+    echo "Backup is not created" >>${DATADIR}/near-bcklogs.txt
+   exit 0
+fi
+
+sudo systemctl restart neard.service \
+&& echo "NEAR node was laucned back at $DATE" >>${DATADIR}/near-bcklogs.txt
+
+FOLDERS=$(ls -t /root/.near/backups/)
+i="0"
+for FOLDER in $FOLDERS
+do
+i=$[$i+1]
+if [ $i -lt 2 ]
+then
+   continue
+ fi
+rm -rv /root/.near/backups/$FOLDER >>${DATADIR}/near-bcklogs.txt
+done
+
+echo "SLEEPING FOR 24H TILL NEXT BACKUP" >>${DATADIR}/near-bcklogs.txt
+sleep 24h
+done
