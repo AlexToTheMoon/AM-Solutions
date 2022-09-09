@@ -105,7 +105,10 @@ By default Tenderduty dashboard run at port `8888`. Just open your browser and o
 Sample of right working dashboard  <br />
 ![dsh](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/png/healthy-dsh.png)
 
+<br />
+
 # Telegram alert bot setup
+
 
 Create your own group at Telegram where your bot will be sending alert notifications  <br />
 Find **@BotFather** user at telegram and create your own Bot (use any available name) <br />
@@ -119,6 +122,33 @@ To create Bot and get API key, please follow instructions at screenshot
 
 To add your bot to your group, please wollow instructions at screenshot
 ![bot-gr1](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/png/add-group1.png)
+
+### Find out your group ID
+
+Find bot named **@JsonViewBot** and add to your gropup <br />
+Bot should join group, show your group ID and leave the group. <br />
+
+**>>> PLEASE COPY GROUP ID AND SAVE <<<**
+
+To get group ID please follow instructions at screenshot
+![gr-ad](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/png/add-group.png)
+
+#### RESULT
+![id](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/png/group-id.png)
+
+### Activate Telegrom bot
+
+Open file `$HOME/config.yml` find `#telegram settings:` paragraph, set some params we saved before: <br />
+enabled: yes <br />
+api_key: <YOUR_BOT_API_KEY> <br />
+channel: <YOUR_GROUP_ID> <br />
+Save changes.
+
+#### Example
+![tg-api-id](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/png/tg-id-api-c.png)
+
+
+
 
 
 
