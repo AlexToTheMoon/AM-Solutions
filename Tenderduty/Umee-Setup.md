@@ -43,7 +43,9 @@ go install
 wget -q -O $HOME/config.yml https://github.com/AlexToTheMoon/AM-Solutions/raw/main/Tenderduty/config.yml
 ```
 #### Set your valoper address
-Open file `$HOME/config.yml` find `chains:` paragraph and set your valoper address and save. Right example below
+Open file `$HOME/config.yml` find `chains:` paragraph, set your valoper address here : `valoper_address:` and save file.
+
+Example
 
 ![valoper](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/png/set-valoper-adr.png)
 
@@ -111,41 +113,67 @@ Sample of right working dashboard  <br />
 
 
 Create your own group at Telegram where your bot will be sending alert notifications  <br />
-Find **@BotFather** user at telegram and create your own Bot (use any available name) <br />
+Find **@BotFather** user at telegram and create your own Bot (use any available name) Use `/newbot` command <br />
 
 **>>> PLEASE COPY HTTP API KEY AND SAVE <<<**
 
-To create Bot and get API key, please follow instructions at screenshot
 ![bot](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/png/botfather.png)
 
 ### Add bot to your group and find out group ID
 
-To add your bot to your group, please wollow instructions at screenshot
+Find your bot by TG @username and add to your group 
+
 ![bot-gr1](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/png/add-group1.png)
 
-### Find out your group ID
+#### Find out group ID
 
-Find bot named **@JsonViewBot** and add to your gropup <br />
+Find bot named **@JsonViewBot** and add to your group <br />
 Bot should join group, show your group ID and leave the group. <br />
 
 **>>> PLEASE COPY GROUP ID AND SAVE <<<**
 
-To get group ID please follow instructions at screenshot
 ![gr-ad](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/png/add-group.png)
 
-#### RESULT
 ![id](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/png/group-id.png)
 
 ### Activate Telegram bot
 
-Open file `$HOME/config.yml` find `#telegram settings:` paragraph, set some params we saved before: <br />
+Open file `$HOME/config.yml` find `#telegram settings:` paragraph, set some params we saved above: <br />
 enabled: yes <br />
 api_key: <YOUR_BOT_API_KEY> <br />
 channel: <YOUR_GROUP_ID> <br />
 Save changes.
 
-#### Example
 ![tg-api-id](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/png/tg-id-api-c.png)
+
+### Last steps...
+
+Restart tenderduty service 
+```bash
+sudo systemctl start tenderduty
+```
+**NOTE** : If after restart U will find logs like : <br />
+`Umee is configured for telegram alerts, but it is not enabled` never mind, it doesn`t mean Telegram notification is not working.
+
+Set up Your Telegram notification settings to receive notifications from created group
+
+#### Test service
+
+Now we can stop Umee validator to miss >=5 blocks, and this what we expect to see when missing blocks and then when node back to normal state:
+
+#### AT DASHBOARD
+![dash-miss](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/png/tg-dsh-alarm.png)
+
+#### AT TELEGRAM
+![tg-alarm](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/png/tg-alert.png)
+
+# Discord alert bot setup
+
+Coming soon...
+
+<p align="center">
+    GOOD LUCK
+</p>
 
 
 
