@@ -148,7 +148,7 @@ Save changes.
 
 Restart tenderduty service 
 ```bash
-sudo systemctl start tenderduty
+sudo systemctl restart tenderduty
 ```
 **NOTE** : If after restart U will find logs like : <br />
 `Umee is configured for telegram alerts, but it is not enabled` never mind, it doesn`t mean Telegram notification is not working.
