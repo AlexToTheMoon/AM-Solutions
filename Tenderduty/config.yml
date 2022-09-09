@@ -66,7 +66,7 @@ chains:
       # Most basic alarm, you just missed x blocks ... would you like to know?
       consecutive_enabled: yes
       # How many missed blocks should trigger a notification?
-      consecutive_missed: 10
+      consecutive_missed: 5
       # NOT USED: future hint for pagerduty's routing
       consecutive_priority: critical
 
