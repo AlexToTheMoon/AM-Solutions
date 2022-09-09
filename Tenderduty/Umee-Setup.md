@@ -45,3 +45,5 @@ wget -q -O $HOME/config.yml https://github.com/AlexToTheMoon/AM-Solutions/raw/ma
 #### Set your valoper address
 Open file `$HOME/config.yml` find `chains:` paragraph and set your valoper address. Right example below
 
+![valoper](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/png/set-valoper-adr.png)
+
