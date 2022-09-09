@@ -136,7 +136,7 @@ To get group ID please follow instructions at screenshot
 #### RESULT
 ![id](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/png/group-id.png)
 
-### Activate Telegrom bot
+### Activate Telegram bot
 
 Open file `$HOME/config.yml` find `#telegram settings:` paragraph, set some params we saved before: <br />
 enabled: yes <br />
