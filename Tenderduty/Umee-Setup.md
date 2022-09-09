@@ -95,7 +95,14 @@ sudo systemctl start tenderduty
 sudo journalctl -u tenderduty -f -o cat
 ```
 This is how the right logs supposed to look like
-![logs]
+
+![logs](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/png/healthy-log.png)
+
+#### Check dashboard 
+
+By default Tenderduty dashboard run at port `8888`. Just open your browser and open dashboard by typing `http://<SERVER_IP_HERE>:8888`  <br />
+SAMPLE  <br />
+![dsh](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/png/healthy-dsh.png)
 
 
 
