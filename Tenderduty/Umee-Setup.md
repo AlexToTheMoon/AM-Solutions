@@ -31,4 +31,14 @@ wget https://go.dev/dl/go1.19.linux-amd64.tar.gz \
 && go version
 rm go1.19.linux-amd64.tar.gz
 ```
-##
+## Install binaries and setup config file
+
+```bash
+git clone https://github.com/blockpane/tenderduty
+cd tenderduty
+go install
+```
+Download config sample
+```bash
+wget -q -O $HOME/config.yml https://github.com/AlexToTheMoon/AM-Solutions/raw/main/Tenderduty/config.yml
+```
