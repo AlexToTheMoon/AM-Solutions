@@ -105,6 +105,20 @@ By default Tenderduty dashboard run at port `8888`. Just open your browser and o
 Sample of right working dashboard  <br />
 ![dsh](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/png/healthy-dsh.png)
 
+# Telegram alert bot setup
+
+Create your own group at Telegram where your bot will be sending alert notifications  <br />
+Find **@BotFather** user at telegram and create your own Bot (use any available name) <br />
+
+**>>> PLEASE COPY HTTP API KEY AND SAVE <<<**
+
+To create Bot and get API key, please follow instructions at screenshot
+![bot](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/png/botfather.png)
+
+### Add bot to your group and find out group ID
+
+To add your bot to your group, please wollow instructions at screenshot
+![bot-gr1](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/png/add-group1.png)
 
 
 
