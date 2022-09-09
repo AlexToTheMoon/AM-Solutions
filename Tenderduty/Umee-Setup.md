@@ -101,7 +101,8 @@ This is how the right logs supposed to look like
 #### Check dashboard 
 
 By default Tenderduty dashboard run at port `8888`. Just open your browser and open dashboard by typing `http://<SERVER_IP_HERE>:8888`  <br />
-SAMPLE  <br />
+
+Sample of right working dashboard  <br />
 ![dsh](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/png/healthy-dsh.png)
 
 
