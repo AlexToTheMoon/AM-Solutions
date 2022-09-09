@@ -7,8 +7,28 @@ U can find original docs [HERE](https://github.com/blockpane/tenderduty/blob/mai
 
 *If any commnets or issues U can contact me at* **Discord** - AlexeyM#5409
 
+## Create new user (from root)
+```bash
+adduser tenderduty
+usermod -aG sudo tenderduty
+ssh tenderduty@localhost
+```
+
 ## Install dependencies
 
 ```bash
 sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt install make clang pkg-config libssl-dev build-essential git jq llvm libudev-dev -y
 ```
+
+## Install GO
+
+```bash
+wget https://go.dev/dl/go1.19.linux-amd64.tar.gz \
+&& sudo tar -xvf go1.19.linux-amd64.tar.gz \
+&& sudo mv go /usr/local \
+&& echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> ~/.bash_profile \
+&& source ~/.bash_profile \
+&& go version
+rm go1.19.linux-amd64.tar.gz
+```
+##
