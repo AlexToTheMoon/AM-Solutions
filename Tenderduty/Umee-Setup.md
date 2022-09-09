@@ -47,6 +47,53 @@ Open file `$HOME/config.yml` find `chains:` paragraph and set your valoper addre
 
 ![valoper](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/png/set-valoper-adr.png)
 
+## Create system file and run Tenderduty
+
+```bash
+sudo tee /etc/systemd/system/tenderduty.service << EOF
+[Unit]
+Description=Tenderduty
+After=network.target
+ConditionPathExists=$(which tenderduty)
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=5
+TimeoutSec=180
+
+User=$USER
+WorkingDirectory=$HOME
+ExecStart=$(which tenderduty)
+
+# there may be a large number of network connections if a lot of chains
+LimitNOFILE=infinity
+
+# extra process isolation
+NoNewPrivileges=true
+ProtectSystem=strict
+RestrictSUIDSGID=true
+LockPersonality=true
+PrivateUsers=true
+PrivateDevices=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
+EOF
+```
+#### Run service
+
+```bash
+sudo systemctl daemon-reload
+sudo systemctl enable tenderduty
+sudo systemctl start tenderduty
+```
+
+#### Check logs
+sudo journalctl -u tenderduty -f -o cat
+
+
 
 
 
