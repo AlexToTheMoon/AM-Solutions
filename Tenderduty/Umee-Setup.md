@@ -91,7 +91,11 @@ sudo systemctl start tenderduty
 ```
 
 #### Check logs
+```bash
 sudo journalctl -u tenderduty -f -o cat
+```
+This is how the right logs supposed to look like
+![logs]
 
 
 
