@@ -45,8 +45,6 @@ wget -q -O $HOME/config.yml https://github.com/AlexToTheMoon/AM-Solutions/raw/ma
 #### Set your valoper address
 Open file `$HOME/config.yml` find `chains:` paragraph, set your valoper address here : `valoper_address:` and save file.
 
-Example
-
 ![valoper](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/png/set-valoper-adr.png)
 
 ## Create system file and run Tenderduty
