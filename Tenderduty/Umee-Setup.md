@@ -38,7 +38,10 @@ git clone https://github.com/blockpane/tenderduty
 cd tenderduty
 go install
 ```
-Download config sample
+#### Download config sample
 ```bash
 wget -q -O $HOME/config.yml https://github.com/AlexToTheMoon/AM-Solutions/raw/main/Tenderduty/config.yml
 ```
+#### Set your valoper address
+Open file `$HOME/config.yml` find `chains:` paragraph and set your valoper address. Right example below
+
