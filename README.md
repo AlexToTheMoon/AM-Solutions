@@ -1,5 +1,9 @@
-# "AM Solutions" Rpc Api State-Sync Data Snap Services
+# "AM Solutions" Snapshot Servises / Manuals / Validator and Node safety services  
 
+[Rebus | https://www.theamsolutions.info/stride ](https://www.theamsolutions.info/rebus)
+* * *
+[Stride | https://www.theamsolutions.info/stride ](https://www.theamsolutions.info/stride)
+* * *
 [Evmos | https://www.theamsolutions.info/evmos-services ](https://www.theamsolutions.info/evmos-services)
 * * *
 [Evmos Cosmovisor Setup Upgrade v4.0.1 | https://www.theamsolutions.info/evmos-cosmovisor](https://www.theamsolutions.info/evmos-cosmovisor)
@@ -15,9 +19,8 @@
 [Meme | https://www.theamsolutions.info/meme-services ](https://www.theamsolutions.info/meme-services)
 
 # "AM-Solutions" Testnet services
-[EVMOS Testnet State-Sync service](https://www.theamsolutions.info/evmos-testnet)
-* * *
-[Umee (Umeemania) Testnet State-Sync service](https://www.theamsolutions.info/umeemania-statesync)
+
+[SUI simple node launch manual + upgrade](https://www.theamsolutions.info/sui)
 * * *
 [Quicksilver State-Sync, Data snap, RPC /API services](https://www.theamsolutions.info/quicksilver-service)
 * * *
