@@ -40,7 +40,7 @@ go install
 ```
 #### Download config sample
 ```bash
-wget -q -O $HOME/config.yml https://github.com/AlexToTheMoon/AM-Solutions/raw/main/Tenderduty/rebus/config.yml
+wget -qO $HOME/config.yml https://github.com/AlexToTheMoon/AM-Solutions/raw/main/Tenderduty/rebus/config.yml
 ```
 #### Set your valoper address
 Open file `$HOME/config.yml` find `chains:` paragraph, set your valoper address here : `valoper_address:` and save file.
