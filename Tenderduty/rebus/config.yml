@@ -107,11 +107,11 @@ chains:
     # Multiple hosts are encouraged, and will be tried sequentially until a working endpoint is discovered.
     nodes:
       # URL for the endpoint. Must include protocol://hostname:port
-      - url: https://rebus-rpc2.theamsolutions.info
+      - url: https://rebus-rpc2.theamsolutions.info:443
         # Should we send an alert if this host isn't responding?
         alert_if_down: yes
       # repeat hosts for monitoring redundancy
-      - url: https://rpc.rebus.nodestake.top
+      - url: https://rpc.rebus.nodestake.top:443
         alert_if_down: no
-      - url: https://rebus.rpc.manticore.team
+      - url: https://rebus.rpc.manticore.team:443
         alert_if_down: no
