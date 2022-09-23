@@ -6,7 +6,7 @@
 * * *
 [Stride | https://www.theamsolutions.info/stride ](https://www.theamsolutions.info/stride)
 
-[Telegram ALARM / notification BOT for Strude](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/stride/README.md) 
+[Telegram ALARM / notification BOT for Stride](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/stride/README.md) 
 * * *
 [Evmos | https://www.theamsolutions.info/evmos-services ](https://www.theamsolutions.info/evmos-services)
 * * *
