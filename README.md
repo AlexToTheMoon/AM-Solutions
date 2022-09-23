@@ -29,6 +29,7 @@
 [SUI simple node launch manual + upgrade](https://www.theamsolutions.info/sui)
 * * *
 [Quicksilver State-Sync, Data snap, RPC /API services](https://www.theamsolutions.info/quicksilver-service)
+[QuickSilver Cosmovisor setup instructions] (https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Quicksilver%20Cosmovisor%20Setup.md)
 * * *
 [SUBSPACE "Gemini" testnet Guide](https://www.theamsolutions.info/subspace-gemini)
 * * *
