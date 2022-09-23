@@ -1,6 +1,8 @@
 # "AM Solutions" Snapshot Servises / Manuals / Validator and Node safety services  
 
 [Rebus | https://www.theamsolutions.info/stride ](https://www.theamsolutions.info/rebus)
+
+[Telegram ALARM / notification BOT for Rebus](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/rebus/manual.md)
 * * *
 [Stride | https://www.theamsolutions.info/stride ](https://www.theamsolutions.info/stride)
 
@@ -11,6 +13,8 @@
 [Evmos Cosmovisor Setup Upgrade v4.0.1 | https://www.theamsolutions.info/evmos-cosmovisor](https://www.theamsolutions.info/evmos-cosmovisor)
 * * *
 [Umee | https://www.theamsolutions.info/umee-services ](https://www.theamsolutions.info/umee-services)
+
+[Telegram ALARM / notification BOT for Umee](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/Umee-Setup.md)
 * * *
 [Umee Peggo relayer notificator | https://github.com/AlexToTheMoon/Peggo-Notificator ](https://github.com/AlexToTheMoon/Peggo-Notificator)
 * * *
