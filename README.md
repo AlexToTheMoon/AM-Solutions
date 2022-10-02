@@ -1,4 +1,4 @@
-# "AM Solutions" Snapshot Servises / Manuals / Validator and Node safety services  
+# "AM Solutions" Servises / Manuals / Validator and Node safety services  
 
 [Rebus | https://www.theamsolutions.info/stride ](https://www.theamsolutions.info/rebus)
 
