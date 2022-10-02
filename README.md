@@ -10,8 +10,6 @@
 * * *
 [Evmos | https://www.theamsolutions.info/evmos-services ](https://www.theamsolutions.info/evmos-services)
 * * *
-[Evmos Cosmovisor Setup Upgrade v4.0.1 | https://www.theamsolutions.info/evmos-cosmovisor](https://www.theamsolutions.info/evmos-cosmovisor)
-* * *
 [Umee | https://www.theamsolutions.info/umee-services ](https://www.theamsolutions.info/umee-services)
 
 [Telegram ALARM / notification BOT for Umee](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/Umee-Setup.md)
@@ -26,6 +24,8 @@
 
 # "AM-Solutions" Testnet services
 
+["Ollo Station" Testnet Validator setup guide + RPC/snapshot services ](https://www.theamsolutions.info/ollo)
+* * *
 [SUI simple node launch manual + upgrade](https://www.theamsolutions.info/sui)
 * * *
 [Quicksilver State-Sync, Data snap, RPC /API services](https://www.theamsolutions.info/quicksilver-service)
