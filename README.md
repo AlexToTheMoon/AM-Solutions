@@ -23,7 +23,8 @@
 [Meme | https://www.theamsolutions.info/meme-services ](https://www.theamsolutions.info/meme-services)
 
 # "AM-Solutions" Testnet services
-
+["Hypersign Protocol" Guide, RPC, API, State Sync, Snapshots](https://www.theamsolutions.info/hypersign)
+* * *
 ["Ollo Station" Testnet Validator setup guide + RPC/snapshot services ](https://www.theamsolutions.info/ollo)
 * * *
 [SUI simple node launch manual + upgrade](https://www.theamsolutions.info/sui)
