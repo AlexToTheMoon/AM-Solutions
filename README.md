@@ -1,9 +1,5 @@
 # "AM Solutions" Servises / Manuals / Validator and Node safety services  
 
-[Rebus | https://www.theamsolutions.info/stride ](https://www.theamsolutions.info/rebus)
-
-[Telegram ALARM / notification BOT for Rebus](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/rebus/manual.md)
-* * *
 [Stride | https://www.theamsolutions.info/stride ](https://www.theamsolutions.info/stride)
 
 [Telegram ALARM / notification BOT for Stride](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/stride/README.md) 
@@ -19,6 +15,10 @@
 [Kujira | https://www.theamsolutions.info/kujira ](https://www.theamsolutions.info/kujira)
 * * *
 [Regen | https://www.theamsolutions.info/regen-services ](https://www.theamsolutions.info/regen-services)
+* * *
+[Rebus | https://www.theamsolutions.info/stride ](https://www.theamsolutions.info/rebus)
+
+[Telegram ALARM / notification BOT for Rebus](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/rebus/manual.md)
 * * *
 [Meme | https://www.theamsolutions.info/meme-services ](https://www.theamsolutions.info/meme-services)
 
