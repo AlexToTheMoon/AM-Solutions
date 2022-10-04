@@ -40,12 +40,12 @@ go install
 ```
 #### Download config sample
 ```bash
-wget -qO $HOME/config.yml https://github.com/AlexToTheMoon/AM-Solutions/raw/main/Tenderduty/haqq/config.yml
+wget -qO $HOME/config.yml https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/haqq/config.yml
 ```
 #### Set your valoper address
 Open file `$HOME/config.yml` find `chains:` paragraph, set your valoper address here : `valoper_address:` and save file.
 
-![valoper](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/stride/png/valop-addr.png)
+![valoper](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/haqq/png/valop-set.png)
 
 ## Create system file and run Tenderduty
 
@@ -96,14 +96,14 @@ sudo journalctl -u tenderduty -f -o cat
 ```
 This is how the right logs supposed to look like
 
-![logs](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/stride/png/logs-cli.png)
+![logs](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/haqq/png/cli-logs.png)
 
 #### Check dashboard 
 
 By default Tenderduty dashboard run at port `8888`. Just open your browser and open dashboard by typing `http://<SERVER_IP_HERE>:8888`  <br />
 
 Sample of right working dashboard  <br />
-![dsh](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/stride/png/dash-logs-good.png)
+![dsh](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/haqq/png/dash-good.png)
 
 <br />
 
@@ -151,19 +151,19 @@ Restart tenderduty service
 sudo systemctl restart tenderduty
 ```
 **NOTE** : If after restart U will find logs like : <br />
-`Stride is configured for telegram alerts, but it is not enabled` never mind, it doesn`t mean Telegram notification is not working.
+`HAQQ is configured for telegram alerts, but it is not enabled` never mind, it doesn`t mean Telegram notification is not working.
 
 Set up Your Telegram notification settings to receive notifications from created group!
 
 #### Test service
 
-Now we can stop Rebus validator to miss >=5 blocks, and this what we expect to see when missing blocks and then when node back to normal state:
+Now we can stop validator node to miss >=5 blocks, and this what we expect to see when missing blocks and then when node back to normal state:
 
 #### AT DASHBOARD
-![dash-miss](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/stride/png/dash-alarm.png)
+![dash-miss](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/haqq/png/alarm-dash.png)
 
 #### AT TELEGRAM
-![tg-alarm](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/stride/png/tg-logs-alarm.png)
+![tg-alarm](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/haqq/png/alarm-tg.png)
 
 # Discord alert bot setup
 
