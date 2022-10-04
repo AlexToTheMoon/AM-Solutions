@@ -1,4 +1,4 @@
-# Tenderduty monitoring and alerting system guide for Stride validator + Telegram alert bot setup.
+# Tenderduty monitoring and alerting system guide for HAQQ validator + Telegram alert bot setup.
 **Please notice!** This is just additional notification service which **can NOT be taken as a main source of the Validator control!**
 
 In this guide Tenderduty run as a "build from source" binaries via systemd service.
