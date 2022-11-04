@@ -9,7 +9,7 @@
 [Umee | https://www.theamsolutions.info/umee-services ](https://www.theamsolutions.info/umee-services)
 
 [Telegram ALARM / notification BOT for Umee](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/Umee-Setup.md)
-* * *
+
 [Umee Peggo relayer notificator | https://github.com/AlexToTheMoon/Peggo-Notificator ](https://github.com/AlexToTheMoon/Peggo-Notificator)
 * * *
 [Kujira | https://www.theamsolutions.info/kujira ](https://www.theamsolutions.info/kujira)
