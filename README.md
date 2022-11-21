@@ -1,4 +1,4 @@
-# "AM Solutions" Servises / Manuals / Validator and Node safety services  
+# "AM Solutions" Mainnet Servises / Manuals / Validator and Node safety services  
 
 [Stride | https://www.theamsolutions.info/stride ](https://www.theamsolutions.info/stride)
 
@@ -25,13 +25,15 @@
 [Meme | https://www.theamsolutions.info/meme-services ](https://www.theamsolutions.info/meme-services)
 
 # "AM-Solutions" Testnet services
+[SUI TESTNET node launch manual + upgrade](https://www.theamsolutions.info/sui-testnet)
+* * *
 ["Hypersign Protocol" Guide, RPC, API, State Sync, Snapshots](https://www.theamsolutions.info/hypersign)
 * * *
 ["Empower Chain" Guide, RPC,Snapshots](https://www.theamsolutions.info/empowerchain)
 * * *
 ["Ollo Station" Testnet Validator setup guide + RPC/snapshot services ](https://www.theamsolutions.info/ollo)
 * * *
-[SUI simple node launch manual + upgrade](https://www.theamsolutions.info/sui)
+[SUI DEVNET node launch manual + upgrade](https://www.theamsolutions.info/sui)
 * * *
 [Quicksilver State-Sync, Data snap, RPC /API services](https://www.theamsolutions.info/quicksilver-service)
 [QuickSilver Cosmovisor setup instructions] (https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Quicksilver%20Cosmovisor%20Setup.md)
