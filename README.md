@@ -25,6 +25,8 @@
 [Meme | https://www.theamsolutions.info/meme-services ](https://www.theamsolutions.info/meme-services)
 
 # "AM-Solutions" Testnet services
+[Regen REDWOOD-1 testnet Snap services](https://www.theamsolutions.info/regen-redwood)
+* * *
 [SUI TESTNET node launch manual + upgrade](https://www.theamsolutions.info/sui-testnet)
 * * *
 ["Hypersign Protocol" Guide, RPC, API, State Sync, Snapshots](https://www.theamsolutions.info/hypersign)
