@@ -1,5 +1,7 @@
 # "AM Solutions" Mainnet Servises / Manuals / Validator and Node safety services  
 
+[C4E Chain | https://www.theamsolutions.info/c4e ](https://www.theamsolutions.info/c4e)
+* * *
 [Stride | https://www.theamsolutions.info/stride ](https://www.theamsolutions.info/stride)
 
 [Telegram ALARM / notification BOT for Stride](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/stride/README.md) 
