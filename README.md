@@ -18,7 +18,9 @@
 * * *
 [Kujira | https://www.theamsolutions.info/kujira ](https://www.theamsolutions.info/kujira)
 * * *
-[Regen | https://www.theamsolutions.info/regen-services ](https://www.theamsolutions.info/regen-services)
+[Regen | https://www.theamsolutions.info/regen-services ](https://www.theamsolutions.info/regen-services)  
+
+[Telegram ALARM / notification BOT for Regen](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/regen/manual.md)
 * * *
 [Rebus | https://www.theamsolutions.info/stride ](https://www.theamsolutions.info/rebus)
 
