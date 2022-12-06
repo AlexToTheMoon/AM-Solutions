@@ -87,6 +87,35 @@ reconnect = true
 EOF
 ```
 
+#### Create service file and run TMKMS
+```
+sudo tee /etc/systemd/system/tmkmsd.service << EOF
+[Unit]
+Description=TMKMS
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+Restart=always
+RestartSec=10
+User=$USER
+ExecStart=$(which tmkms) start -c $HOME/tmkms/umee/tmkms.toml
+LimitNOFILE=1024
+[Install]
+WantedBy=multi-user.target
+EOF
+```
+```
+sudo systemctl daemon-reload
+sudo systemctl enable tmkmsd.service
+sudo systemctl restart tmkmsd.service
+sudo systemctl status tmkmsd.service
+```
+to check logs
+```
+sudo journalctl -u tmkmsd.service -f -o cat
+```
+
 
 
 
