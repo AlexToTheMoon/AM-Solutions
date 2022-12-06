@@ -57,7 +57,36 @@ If right output is appeared, follow next step below
 tmkms softsign import $HOME/priv_validator_key.json $HOME/tmkms/umee/secrets/umee-consensus.key
 ```
 Now we can erase copy of original file  
-```shred -uvz $HOME/priv_validator_key.json```
+```
+shred -uvz $HOME/priv_validator_key.json
+```
+
+#### Swap tmkms.toml to the one below. The only "addr =" field edit need to be done, replace it with your validator node IP + port(26658 default)
+```
+rm -rf ~/tmkms/umee/tmkms.toml
+```
+```
+tee ~/tmkms/umee/tmkms.toml << EOF
+#Tendermint KMS configuration file
+[[chain]]
+id = "canon-2"
+key_format = { type = "bech32", account_key_prefix = "umeepub", consensus_key_prefix = "umeevalconspub" }
+state_file = "/home/kms/tmkms/umee/state/canon-2-priv_validator_state.json"
+#Software-based Signer Configuration
+[[providers.softsign]]
+chain_ids = ["canon-2"]
+key_type = "consensus"
+path = "/home/kms/tmkms/umee/secrets/umee-consensus.key"
+#Validator Configuration
+[[validator]]
+chain_id = "canon-2"
+addr = "tcp://10.10.10.10:26658" #Set here validator IP and port
+secret_key = "/home/kms/tmkms/umee/secrets/kms-identity.key"
+protocol_version = "v0.34"
+reconnect = true
+EOF
+```
+
 
 
 
