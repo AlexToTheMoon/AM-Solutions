@@ -116,7 +116,7 @@ to check logs
 sudo journalctl -u tmkmsd.service -f -o cat
 ```
 Sample of normal logs at present stage
-![tmkms-launch](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/tkms/umee/pict/logs-tmkms-first.png?raw=true)
+![tmkms-launch](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/tkms/umee/pict/logs_tmkms-first.png?raw=true)
 
 ##### Last step.  validator 
 
