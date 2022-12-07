@@ -1,4 +1,4 @@
-## Remote Signing setup via TMKMS for Umee "canon-2" chain testnet.
+## Remote Signing setup via TMKMS for Umee.
 
 #### Please notice:
 
