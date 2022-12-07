@@ -141,7 +141,7 @@ Good logs example :
 `INFO tmkms::session: [canon-2@tcp://173.212.215.104:26658] signed PreCommit:266AB0AF95 at h/r/s 954948/0/2 (0 ms)` 
 
 
-#### Backup in safe place priv_validator_key.json and remove it from Validator node.
+### Backup in safe place priv_validator_key.json and remove it from Validator node.
 
 ##
 <p align="center">
