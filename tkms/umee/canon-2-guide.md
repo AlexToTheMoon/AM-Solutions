@@ -11,7 +11,10 @@ At remote signing host (where we setup tmkms) should be managed high level of se
 Best option to use VPN tunel for connection between remote signer host and validator node.
 
 How to setup VPN at Ubuntu U can find [HERE](https://www.digitalocean.com/community/tutorials/how-to-set-up-and-configure-an-openvpn-server-on-ubuntu-20-04)
-or any another source like Google or YouTube.
+or any another source like Google or YouTube.  
+
+For any feedback or comments, please contact Discord - AlexeyM#5409
+
 ##
 <p align="center">
 Instructions
@@ -80,7 +83,7 @@ path = "/home/kms/tmkms/umee/secrets/umee-consensus.key"
 #Validator Configuration
 [[validator]]
 chain_id = "canon-2"
-addr = "tcp://10.10.10.10:26658" #Set here validator IP and port
+addr = "tcp://10.10.10.12:26658" #Set here validator IP and port
 secret_key = "/home/kms/tmkms/umee/secrets/kms-identity.key"
 protocol_version = "v0.34"
 reconnect = true
@@ -116,9 +119,34 @@ to check logs
 sudo journalctl -u tmkmsd.service -f -o cat
 ```
 Sample of normal logs at present stage
-![tmkms-launch](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/tkms/umee/pict/logs_tmkms-first.png?raw=true)
 
-##### Last step.  validator 
+`INFO tmkms::keyring: [keyring:softsign] added consensus Ed25519 key: umeevalconspub1zcjduepqpg8kmjv...`  
+`2022-12-07T09:04:15.959017Z  INFO tmkms::connection::tcp: KMS node ID: 8090d2661357dadb5e8888f234ecee41603f1873`  
+`2022-12-07T09:04:15.962726Z ERROR tmkms::client: [canon-2@tcp://10.10.10.12:26658] I/O error: Connection refused (os error 111)`
+
+#### LAST STEPS. Activate siging from Validator side
+
+Find field `priv_validator_laddr = ""` at dir `$HOME/.umee/config/config.toml` and edit to your Validator IP + port  
+Basically it should be the same as in tmkms.toml file.
+
+Example : `priv_validator_laddr = "tcp://10.10.10.12:26658"`
+
+##### Restart UMEE node and check TMKMS logs   
+
+Good logs example :  
+
+`INFO tmkms::session: [canon-2@tcp://173.212.215.104:26658] connected to validator successfully`  
+`WARN tmkms::session: [canon-2@tcp://173.212.215.104:26658]: unverified validator peer ID! (458562cf0d3e17f0d7755ccafdcd977ca93e0304)`  
+`INFO tmkms::session: [canon-2@tcp://173.212.215.104:26658] signed PreVote:266AB0AF95 at h/r/s 954948/0/1 (0 ms)`  
+`INFO tmkms::session: [canon-2@tcp://173.212.215.104:26658] signed PreCommit:266AB0AF95 at h/r/s 954948/0/2 (0 ms)` 
+
+
+#### Backup in safe place priv_validator_key.json and remove it from Validator node.
+
+##
+<p align="center">
+That pretty much all. Good luck!
+</p>
 
 
 
