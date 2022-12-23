@@ -164,8 +164,9 @@ Now we can stop Quicksilver validator node to miss >=5 blocks, and this what we 
 
 #### AT TELEGRAM
 ![tg-alarm](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/quicksilver/png/tg-alarm.png)
-
-# Discord alert bot setup
+  
+  
+### Discord alert bot setup
 
 Coming soon...
 
