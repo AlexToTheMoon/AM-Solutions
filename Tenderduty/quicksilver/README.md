@@ -45,7 +45,7 @@ wget -q -O $HOME/config.yml https://github.com/AlexToTheMoon/AM-Solutions/raw/ma
 #### Set your valoper address
 Open file `$HOME/config.yml` find `chains:` paragraph, set your valoper address here : `valoper_address:` and save file.
 
-![valoper](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/png/set-valoper-adr.png)
+![valoper](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/quicksilver/png/valoper.png)
 
 ## Create system file and run Tenderduty
 
@@ -96,14 +96,14 @@ sudo journalctl -u tenderduty -f -o cat
 ```
 This is how the right logs supposed to look like
 
-![logs](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/png/healthy-log.png)
+![logs](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/quicksilver/png/logs-cli-start.png)
 
 #### Check dashboard 
 
 By default Tenderduty dashboard run at port `8888`. Just open your browser and open dashboard by typing `http://<SERVER_IP_HERE>:8888`  <br />
 
 Sample of right working dashboard  <br />
-![dsh](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/png/healthy-dsh.png)
+![dsh](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/quicksilver/png/logs-dash-good.png)
 
 <br />
 
@@ -157,13 +157,13 @@ Set up Your Telegram notification settings to receive notifications from created
 
 #### Test service
 
-Now we can stop Umee validator to miss >=5 blocks, and this what we expect to see when missing blocks and then when node back to normal state:
+Now we can stop Quicksilver validator node to miss >=5 blocks, and this what we expect to see when missing blocks and then when node back to normal state:
 
 #### AT DASHBOARD
-![dash-miss](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/png/tg-dsh-alarm.png)
+![dash-miss](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/quicksilver/png/dash-alarm.png)
 
 #### AT TELEGRAM
-![tg-alarm](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/png/tg-alert.png)
+![tg-alarm](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/quicksilver/png/tg-alarm.png)
 
 # Discord alert bot setup
 
