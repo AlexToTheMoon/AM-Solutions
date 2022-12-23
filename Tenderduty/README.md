@@ -1,7 +1,7 @@
 # TENDERDUTY NOTIFICATION SERVICES
 
 ### Please see 
-[Quicksilver guide]https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/quicksilver/README.md
+[Quicksilver guide](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/quicksilver/README.md)
 
 [Stride guide](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/stride/README.md)
 
