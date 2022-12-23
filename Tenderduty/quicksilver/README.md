@@ -115,13 +115,13 @@ Find **@BotFather** user at telegram and create your own Bot (use any available 
 
 **>>> PLEASE COPY HTTP API KEY AND SAVE <<<**
 
-![bot](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/png/botfather.png)
+![bot](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/rebus/png/newbot.png)
 
 ### Add bot to your group and find out group ID
 
 Find your bot by TG @username and add to your group 
 
-![bot-gr1](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/png/add-group1.png)
+![bot-gr1](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/rebus/png/add-group-bot.png)
 
 #### Find out group ID
 
@@ -130,9 +130,9 @@ Bot should join group, show your group ID and leave the group. <br />
 
 **>>> PLEASE COPY GROUP ID AND SAVE <<<**
 
-![gr-ad](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/png/add-group.png)
+![gr-ad](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/rebus/png/add-group-json.png)
 
-![id](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/png/group-id.png)
+![id](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/rebus/png/group-id.png)
 
 ### Activate Telegram bot
 
@@ -142,7 +142,7 @@ api_key: <YOUR_BOT_API_KEY> <br />
 channel: <YOUR_GROUP_ID> <br />
 Save changes.
 
-![tg-api-id](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/png/tg-id-api-c.png)
+![tg-api-id](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/rebus/png/tg-conf.png)
 
 ### Last steps...
 
