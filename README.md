@@ -1,5 +1,7 @@
 # "AM Solutions" Mainnet Servises / Manuals / Validator and Node safety services  
 
+[Quicksilver Services  | https://www.theamsolutions.info/quicksilver-mainnet ](https://www.theamsolutions.info/quicksilver-mainnet)
+* * *
 [C4E Chain | https://www.theamsolutions.info/c4e ](https://www.theamsolutions.info/c4e)
 * * *
 [Stride | https://www.theamsolutions.info/stride ](https://www.theamsolutions.info/stride)
