@@ -120,8 +120,8 @@ sudo journalctl -u tmkmsd.service -f -o cat
 ```
 Sample of normal logs at present stage
 
-`INFO tmkms::keyring: [keyring:softsign] added consensus Ed25519 key: umeevalconspub1zcjduepqpg8kmjv...`  
-`2022-12-07T09:04:15.959017Z  INFO tmkms::connection::tcp: KMS node ID: 8090d2661357dadb5e8888f234ecee41603f1873`  
+`INFO tmkms::commands::start: tmkms 0.12.2 starting up...`  
+`INFO tmkms::keyring: [keyring:softsign] added consensus Ed25519 key: regenvalconsoub....`  
 `2022-12-07T09:04:15.962726Z ERROR tmkms::client: [canon-2@tcp://10.10.10.12:26658] I/O error: Connection refused (os error 111)`
 
 #### LAST STEPS. Activate siging from Validator side
@@ -131,7 +131,9 @@ Make sure your firewall open only for KMS server IP to allow connect to port 266
 
 Example : `priv_validator_laddr = "tcp://0.0.0.0:26658"`
 
-##### Restart UMEE node and check TMKMS logs   
+If u have more than one IP u have to set right IP (the same as in tmkms config file)
+
+##### Restart REGEN node and check TMKMS logs   
 
 Good logs example :  
  
