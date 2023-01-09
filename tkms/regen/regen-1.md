@@ -145,7 +145,7 @@ Good logs example :
 `INFO tmkms::session: [regen-1@tcp://<IP>:26658] signed PreVote:13BF759486 at h/r/s 8825121/0/1 (0 ms)`
 
 
-### Backup in safe place priv_validator_key.json and remove it from Validator node.
+### Backup in safe place priv_validator_key.json and delete it from Validator node. Now U signing from KMS server!
 
 ##
 <p align="center">
