@@ -22,7 +22,9 @@
 * * *
 [Kujira | https://www.theamsolutions.info/kujira ](https://www.theamsolutions.info/kujira)
 * * *
-[Regen | https://www.theamsolutions.info/regen-services ](https://www.theamsolutions.info/regen-services)  
+[Regen | https://www.theamsolutions.info/regen-services ](https://www.theamsolutions.info/regen-services) 
+
+[Regen TMKMS setup Guide ](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/tkms/regen/regen-1.md)
 
 [Telegram ALARM / notification BOT for Regen](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/regen/manual.md)
 * * *
