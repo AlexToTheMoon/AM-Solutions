@@ -61,7 +61,7 @@ tmkms softsign import $HOME/priv_validator_key.json $HOME/tmkms/regen/secrets/re
 ```
 Now we can erase copy of original file  
 ```
-shred -uvz $HOME/priv_validator_key.json
+sudo shred -uvz $HOME/priv_validator_key.json
 ```
 
 #### Swap tmkms.toml to the one below. The only "addr =" field edit need to be done, replace it with your validator node IP + port(26658 default)
