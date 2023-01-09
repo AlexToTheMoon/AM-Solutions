@@ -138,11 +138,12 @@ If u have more than one IP u have to set right IP (the same as in tmkms config f
 
 Good logs example :  
 `INFO tmkms::session: [regen-1@tcp://<IP>:26658] connected to validator successfully`
-`WARN tmkms::session: [regen-1@tcp://<IP>:26658]: unverified validator peer ID! (ad1fc4b45ee2340bb8148d7247bf82ea780y213q)`
-`INFO tmkms::session: [regen-1@tcp://<IP>:26658] signed PreCommit:<nil> at h/r/s 8825119/0/2 (0 ms)`
-`INFO tmkms::session: [regen-1@tcp://<IP>:26658] signed PreVote:144665D1CE at h/r/s 8825120/0/1 (0 ms)`
-`INFO tmkms::session: [regen-1@tcp://<IP>:26658] signed PreCommit:144665D1CE at h/r/s 8825120/0/2 (0 ms)`
-`INFO tmkms::session: [regen-1@tcp://<IP>:26658] signed PreVote:13BF759486 at h/r/s 8825121/0/1 (0 ms)`
+
+`WARN tmkms::session: [regen-1@tcp://<IP>:26658]: unverified validator peer ID! (ad1fc4b45ee2340bb8148d7247bf82ea780y213q)`  
+`INFO tmkms::session: [regen-1@tcp://<IP>:26658] signed PreCommit:<nil> at h/r/s 8825119/0/2 (0 ms)`  
+`INFO tmkms::session: [regen-1@tcp://<IP>:26658] signed PreVote:144665D1CE at h/r/s 8825120/0/1 (0 ms)`  
+`INFO tmkms::session: [regen-1@tcp://<IP>:26658] signed PreCommit:144665D1CE at h/r/s 8825120/0/2 (0 ms)`  
+`INFO tmkms::session: [regen-1@tcp://<IP>:26658] signed PreVote:13BF759486 at h/r/s 8825121/0/1 (0 ms)`  
 
 
 ### Backup in safe place priv_validator_key.json and delete it from Validator node. Now U signing from KMS server!
