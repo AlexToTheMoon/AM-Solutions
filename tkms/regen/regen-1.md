@@ -1,4 +1,4 @@
-## Remote Signing setup via TMKMS for Regen chain.
+## Remote Signing setup via TMKMS for Regen mainnet.
 
 #### Please notice:
 
