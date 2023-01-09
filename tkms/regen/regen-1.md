@@ -53,7 +53,7 @@ tmkms init $HOME/tmkms/regen
 ```
 #### Import Private key
 Upload your validator (or create and move data) priv_validator_key.json 
-to directory **$HOME/priv_validator_key.json***  
+to directory **$HOME/priv_validator_key.json**  
 Then check availablity ```cat $HOME/priv_validator_key.json```  
 If right output is appeared, follow next step below 
 ```
