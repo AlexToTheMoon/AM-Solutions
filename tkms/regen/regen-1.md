@@ -122,12 +122,13 @@ Sample of normal logs at present stage
 
 `INFO tmkms::commands::start: tmkms 0.12.2 starting up...`  
 `INFO tmkms::keyring: [keyring:softsign] added consensus Ed25519 key: regenvalconsoub....`  
-`2022-12-07T09:04:15.962726Z ERROR tmkms::client: [canon-2@tcp://10.10.10.12:26658] I/O error: Connection refused (os error 111)`
+`INFO tmkms::connection::tcp: KMS node ID: a1dbc4edb1dbb2bcd9316081bd810f57e0d`
+`ERROR tmkms::client: [regen-1@tcp://<NODE IP>:26658] I/O error: Connection`
 
 #### LAST STEPS. Activate siging from Validator side
 
 Find field `priv_validator_laddr = ""` at dir `$HOME/.regen/config/config.toml` and edit to your Validator IP + port  
-Make sure your firewall open only for KMS server IP to allow connect to port 26658 (or any custom port u set)
+**Make sure your firewall open only for KMS server IP to allow connect to port 26658 (or any custom port u set)**
 
 Example : `priv_validator_laddr = "tcp://0.0.0.0:26658"`
 
@@ -136,7 +137,12 @@ If u have more than one IP u have to set right IP (the same as in tmkms config f
 ##### Restart REGEN node and check TMKMS logs   
 
 Good logs example :  
- 
+`INFO tmkms::session: [regen-1@tcp://<IP>:26658] connected to validator successfully`
+`WARN tmkms::session: [regen-1@tcp://<IP>:26658]: unverified validator peer ID! (ad1fc4b45ee2340bb8148d7247bf82ea780y213q)`
+`INFO tmkms::session: [regen-1@tcp://<IP>:26658] signed PreCommit:<nil> at h/r/s 8825119/0/2 (0 ms)`
+`INFO tmkms::session: [regen-1@tcp://<IP>:26658] signed PreVote:144665D1CE at h/r/s 8825120/0/1 (0 ms)`
+`INFO tmkms::session: [regen-1@tcp://<IP>:26658] signed PreCommit:144665D1CE at h/r/s 8825120/0/2 (0 ms)`
+`INFO tmkms::session: [regen-1@tcp://<IP>:26658] signed PreVote:13BF759486 at h/r/s 8825121/0/1 (0 ms)`
 
 
 ### Backup in safe place priv_validator_key.json and remove it from Validator node.
