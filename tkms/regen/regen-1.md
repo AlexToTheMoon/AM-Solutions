@@ -74,7 +74,7 @@ tee ~/tmkms/regen/tmkms.toml << EOF
 [[chain]]
 id = "regen-1"
 key_format = { type = "bech32", account_key_prefix = "regenpub", consensus_key_prefix = "regenvalcons" }
-state_file = "$HOME/tmkms/regen/state/cregen-1_priv_validator_state.json"
+state_file = "$HOME/tmkms/regen/state/regen-1_priv_validator_state.json"
 #Software-based Signer Configuration
 [[providers.softsign]]
 chain_ids = ["regen-1"]
