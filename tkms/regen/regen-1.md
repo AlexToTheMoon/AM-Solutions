@@ -125,7 +125,7 @@ Sample of normal logs at present stage
 `INFO tmkms::connection::tcp: KMS node ID: a1dbc4edb1dbb2bcd9316081bd810f57e0d`  
 `ERROR tmkms::client: [regen-1@tcp://<NODE IP>:26658] I/O error: Connection`  
 
-#### LAST STEPS. Activate siging from Validator side
+#### LAST STEPS. Activate signing from Regen node side
 
 Find field `priv_validator_laddr = ""` at dir `$HOME/.regen/config/config.toml` and edit to your Validator IP + port  
 **Make sure your firewall open only for KMS server IP to allow connect to port 26658 (or any custom port u set)**
