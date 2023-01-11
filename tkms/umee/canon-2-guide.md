@@ -124,7 +124,7 @@ Sample of normal logs at present stage
 `2022-12-07T09:04:15.959017Z  INFO tmkms::connection::tcp: KMS node ID: 8090d2661357dadb5e8888f234ecee41603f1873`  
 `2022-12-07T09:04:15.962726Z ERROR tmkms::client: [canon-2@tcp://10.10.10.12:26658] I/O error: Connection refused (os error 111)`
 
-#### LAST STEPS. Activate siging from Validator side
+#### LAST STEPS. Activate remote signing from Umee node side
 
 Find field `priv_validator_laddr = ""` at dir `$HOME/.umee/config/config.toml` and edit to your Validator IP + port  
 Basically it should be the same as in tmkms.toml file.
