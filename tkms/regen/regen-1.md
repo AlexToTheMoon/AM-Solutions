@@ -121,7 +121,7 @@ sudo journalctl -u tmkmsd.service -f -o cat
 Sample of normal logs at present stage
 
 `INFO tmkms::commands::start: tmkms 0.12.2 starting up...`    
-`INFO tmkms::keyring: [keyring:softsign] added consensus Ed25519 key: regenvalconsoub....`    
+`INFO tmkms::keyring: [keyring:softsign] added consensus Ed25519 key: regenvalcons1....`    
 `INFO tmkms::connection::tcp: KMS node ID: a1dbc4edb1dbb2bcd9316081bd810f57e0d`  
 `ERROR tmkms::client: [regen-1@tcp://<NODE IP>:26658] I/O error: Connection`  
 
