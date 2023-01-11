@@ -1,17 +1,15 @@
 # "AM Solutions" Mainnet Servises / Manuals / Validator and Node safety services  
+* * *
+**EVMOS**  
 
-[Quicksilver Services  | https://www.theamsolutions.info/quicksilver-mainnet ](https://www.theamsolutions.info/quicksilver-mainnet)
-* * *
-[C4E Chain | https://www.theamsolutions.info/c4e ](https://www.theamsolutions.info/c4e)
-* * *
-[Stride | https://www.theamsolutions.info/stride ](https://www.theamsolutions.info/stride)
+[Evmos | https://www.theamsolutions.info/evmos-services](https://www.theamsolutions.info/evmos-services)
 
-[Telegram ALARM / notification BOT for Stride](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/stride/README.md) 
-* * *
-[Evmos | https://www.theamsolutions.info/evmos-services ](https://www.theamsolutions.info/evmos-services)
+[Evmos TMKSM remote signer Guide](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/tkms/evmos/evmos_9001-2.md)
 
 [Telegram ALARM / notification BOT for EVMOS](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/evmos/README.md)
 * * *
+**UMEE**  
+
 [Umee | https://www.theamsolutions.info/umee-services ](https://www.theamsolutions.info/umee-services)
 
 [Telegram ALARM / notification BOT for Umee](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/Umee-Setup.md)
@@ -20,18 +18,40 @@
 
 [Umee KMS setup GUIDE](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/tkms/umee/canon-2-guide.md)
 * * *
-[Kujira | https://www.theamsolutions.info/kujira ](https://www.theamsolutions.info/kujira)
-* * *
+**REGEN**  
+
 [Regen | https://www.theamsolutions.info/regen-services ](https://www.theamsolutions.info/regen-services) 
 
 [Regen TMKMS setup Guide ](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/tkms/regen/regen-1.md)
 
 [Telegram ALARM / notification BOT for Regen](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/regen/manual.md)
 * * *
+**KUJIRA**  
+
+[Kujira | https://www.theamsolutions.info/kujira ](https://www.theamsolutions.info/kujira)
+* * *
+**QUICKSILVER**  
+
+[Quicksilver Services  | https://www.theamsolutions.info/quicksilver-mainnet ](https://www.theamsolutions.info/quicksilver-mainnet)
+* * *
+**C4E Chain**  
+
+[C4E Chain | https://www.theamsolutions.info/c4e ](https://www.theamsolutions.info/c4e)
+* * *
+**STRIDE**  
+
+[Stride | https://www.theamsolutions.info/stride ](https://www.theamsolutions.info/stride)
+
+[Telegram ALARM / notification BOT for Stride](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/stride/README.md) 
+* * *
+**REBUS**  
+
 [Rebus | https://www.theamsolutions.info/stride ](https://www.theamsolutions.info/rebus)
 
 [Telegram ALARM / notification BOT for Rebus](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/rebus/manual.md)
 * * *
+**MEME**  
+
 [Meme | https://www.theamsolutions.info/meme-services ](https://www.theamsolutions.info/meme-services)
 
 # "AM-Solutions" Testnet services
@@ -47,7 +67,6 @@
 * * *
 [SUI DEVNET node launch manual + upgrade](https://www.theamsolutions.info/sui)
 * * *
-[Quicksilver State-Sync, Data snap, RPC /API services](https://www.theamsolutions.info/quicksilver-service)
 [QuickSilver Cosmovisor setup instructions] (https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Quicksilver%20Cosmovisor%20Setup.md)
 * * *
 [SUBSPACE "Gemini" testnet Guide](https://www.theamsolutions.info/subspace-gemini)
