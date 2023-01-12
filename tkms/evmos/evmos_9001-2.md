@@ -4,8 +4,6 @@
 
 This guide about "Soft-Sign" option, which is software signing structure. There is also HSM option available, for hardware signing methods like Ledger etc.. What requires physical access to the server. More information available at official docs [HERE](https://github.com/iqlusioninc/tmkms)
 
-In inducation proposes, for new users, we guide TMKMS at Umee testnet, but there is no difference between settings for mainnet. Just edit chain-id, "addr =" field and obviously use mainnet "priv_validator_key.json".
-
 At remote signing host (where we setup tmkms) should be managed high level of security. Like non root access, firewalls etc.. 
 
 Best option to use VPN tunel for connection between remote signer host and validator node.
