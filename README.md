@@ -67,7 +67,7 @@
 * * *
 [SUI DEVNET node launch manual + upgrade](https://www.theamsolutions.info/sui)
 * * *
-[QuickSilver Cosmovisor setup instructions] (https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Quicksilver%20Cosmovisor%20Setup.md)
+[QuickSilver Cosmovisor setup instructions](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Quicksilver%20Cosmovisor%20Setup.md)
 * * *
 [SUBSPACE "Gemini" testnet Guide](https://www.theamsolutions.info/subspace-gemini)
 * * *
