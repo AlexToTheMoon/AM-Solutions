@@ -74,17 +74,17 @@ tee ~/tmkms/umee/tmkms.toml << EOF
 [[chain]]
 id = "canon-2"
 key_format = { type = "bech32", account_key_prefix = "umeepub", consensus_key_prefix = "umeevalconspub" }
-state_file = "/home/kms/tmkms/umee/state/canon-2-priv_validator_state.json"
+state_file = "$HOME/tmkms/umee/state/canon-2-priv_validator_state.json"
 #Software-based Signer Configuration
 [[providers.softsign]]
 chain_ids = ["canon-2"]
 key_type = "consensus"
-path = "/home/kms/tmkms/umee/secrets/umee-consensus.key"
+path = "$HOME/tmkms/umee/secrets/umee-consensus.key"
 #Validator Configuration
 [[validator]]
 chain_id = "canon-2"
 addr = "tcp://10.10.10.12:26658" #Set here validator IP and port
-secret_key = "/home/kms/tmkms/umee/secrets/kms-identity.key"
+secret_key = "$HOME/tmkms/umee/secrets/kms-identity.key"
 protocol_version = "v0.34"
 reconnect = true
 EOF
