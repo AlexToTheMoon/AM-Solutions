@@ -50,6 +50,11 @@
 
 [Telegram ALARM / notification BOT for Rebus](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/rebus/manual.md)
 * * *
+**GNOSIS**  
+
+[Mainnet Node launch guide | https://www.theamsolutions.info/gnosis-mainnet ](https://www.theamsolutions.info/gnosis-mainnet)
+
+* * *
 **MEME**  
 
 [Meme | https://www.theamsolutions.info/meme-services ](https://www.theamsolutions.info/meme-services)
