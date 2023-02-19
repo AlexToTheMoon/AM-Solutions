@@ -61,6 +61,8 @@
 
 # "AM-Solutions" Testnet services
 
+[Quasar testnet node services / explorer ](https://www.theamsolutions.info/quasar-testnet)
+* * *
 [Archway Constantine-1 services ](https://www.theamsolutions.info/archway-constantine)
 * * *
 [Regen REDWOOD-1 testnet Snap services](https://www.theamsolutions.info/regen-redwood)
