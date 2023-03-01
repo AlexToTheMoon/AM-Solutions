@@ -16,7 +16,7 @@
 
 [Umee Peggo relayer notificator | https://github.com/AlexToTheMoon/Peggo-Notificator ](https://github.com/AlexToTheMoon/Peggo-Notificator)
 
-[Umee KMS setup GUIDE](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/tkms/umee/canon-2-guide.md)
+[Umee TMKMS setup GUIDE](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/tkms/umee/canon-2-guide.md)
 * * *
 **REGEN**  
 
