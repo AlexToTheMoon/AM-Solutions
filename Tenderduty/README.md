@@ -1,6 +1,8 @@
 # TENDERDUTY NOTIFICATION SERVICES
 
 ### Please see 
+[Evmos Guide](https://github.com/AlexToTheMoon/AM-Solutions/tree/main/Tenderduty/evmos)
+
 [Quicksilver guide](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/quicksilver/README.md)
 
 [Stride guide](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/stride/README.md)
