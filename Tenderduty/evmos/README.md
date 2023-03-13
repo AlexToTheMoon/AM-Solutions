@@ -34,7 +34,7 @@ rm go1.19.linux-amd64.tar.gz
 ## Install binaries and setup config file
 
 ```bash
-git clone https://github.com/blockpane/tenderduty
+git clone https://github.com/blockpane/tenderduty.git
 cd tenderduty
 go install
 ```
