@@ -61,7 +61,7 @@
 
 # "AM-Solutions" Testnet services
 
-[Quasar testnet node services / explorer ](https://www.theamsolutions.info/quasar-testnet)
+[Celestia "Blockspace" Testnet Services / Guides ](https://www.theamsolutions.info/celestia)
 * * *
 [Archway Constantine-1 services ](https://www.theamsolutions.info/archway-constantine)
 * * *
@@ -77,11 +77,11 @@
 * * *
 [SUI DEVNET node launch manual + upgrade](https://www.theamsolutions.info/sui)
 * * *
+[Quasar testnet node services / explorer ](https://www.theamsolutions.info/quasar-testnet)
+* * *
 [QuickSilver Cosmovisor setup instructions](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Quicksilver%20Cosmovisor%20Setup.md)
 * * *
 [SUBSPACE "Gemini" testnet Guide](https://www.theamsolutions.info/subspace-gemini)
-* * *
-[Celestia Mamaki Testnet Validator Node Guide](https://www.theamsolutions.info/celestia)
 * * *
 [Sei-Network node setup Guide Via State-Sync](https://www.theamsolutions.info/sei-network)
 * * *
