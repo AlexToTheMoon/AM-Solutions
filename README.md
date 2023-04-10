@@ -62,6 +62,8 @@
 # "AM-Solutions" Testnet services
 
 [Celestia "Blockspace" Testnet Services / Guides ](https://www.theamsolutions.info/celestia)
+
+[Telegram ALARM / notification BOT for Celestia testnet](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/celestia/manual.md)
 * * *
 [Archway Constantine-1 services ](https://www.theamsolutions.info/archway-constantine)
 * * *
