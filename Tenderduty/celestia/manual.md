@@ -44,7 +44,8 @@ go install
 wget -qO $HOME/config.yml https://github.com/AlexToTheMoon/AM-Solutions/raw/main/Tenderduty/celestia/config.yml
 ```
 #### Set your valoper address
-Open file `$HOME/config.yml` find `chains:` paragraph, set your valoper address here : `valoper_address:` and save file.
+Open file `$HOME/config.yml` find `chains:` paragraph, set YOUR valoper address here : `valoper_address:` and save file.  
+Sample:
 
 ![valoper](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/celestia/config.png)
 
