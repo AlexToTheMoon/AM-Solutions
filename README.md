@@ -63,7 +63,9 @@
 
 [Celestia "Blockspace" Testnet Services / Guides ](https://www.theamsolutions.info/celestia)
 
-[Telegram ALARM / notification BOT for Celestia "blockspacerace-0" testnet](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/celestia/manual.md)
+[Telegram ALARM / notification BOT for Celestia "blockspacerace-0" testnet](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/celestia/manual.md)  
+
+[TMKMS Remote Signing setup for Celestia Blockspace Race testnet](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/tkms/celestia/blockspacerace.md)
 * * *
 [Archway Constantine-1 services ](https://www.theamsolutions.info/archway-constantine)
 * * *
