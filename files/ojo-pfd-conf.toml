@@ -218,8 +218,9 @@ chain_id = "ojo-testnet"
 validator = "ojovaloper1..."
 
 [keyring]
-backend = "test"
-dir = "/Users/username/.ojo"
+backend = "os"
+dir = "$HOME/.ojo"
+pass=""
 
 [rpc]
 grpc_endpoint = "localhost:9090"
