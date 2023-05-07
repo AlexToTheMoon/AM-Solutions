@@ -325,7 +325,7 @@ urls = [
 ]
 
 [[provider_endpoints]]
-name = "osmosis"
+name = "osmosisv2"
 urls = [
   "https://api.osmosis.zone",
   "https://api-osmosis.imperator.co",
