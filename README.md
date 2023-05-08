@@ -69,7 +69,7 @@
 * * *
 [Archway Constantine-1 services ](https://www.theamsolutions.info/archway-constantine)
 * * *
-[Umee TESTNET services] (https://www.theamsolutions.info/umee-testnet)
+[Umee TESTNET services](https://www.theamsolutions.info/umee-testnet)
 * * *
 [Regen REDWOOD-1 testnet Snap services](https://www.theamsolutions.info/regen-redwood)
 * * *
