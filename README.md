@@ -32,7 +32,9 @@
 * * *
 **QUICKSILVER**  
 
-[Quicksilver Services  | https://www.theamsolutions.info/quicksilver-mainnet ](https://www.theamsolutions.info/quicksilver-mainnet)
+[Quicksilver Services  | https://www.theamsolutions.info/quicksilver-mainnet ](https://www.theamsolutions.info/quicksilver-mainnet)  
+
+[Quicksilver-2 TMKMS setup GUIDE](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/tkms/quicksilver/README.md)
 * * *
 **C4E Chain**  
 
