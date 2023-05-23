@@ -48,7 +48,7 @@ chains:
   # The user-friendly name that will be used for labels. Highly suggest wrapping in quotes.
   "Quicksilver":
     # chain_id is validated for a match when connecting to an RPC endpoint, also used as a label in several places.
-    chain_id: quicksilver-1
+    chain_id: quicksilver-2
     # Hooray, in v2 we derive the valcons from abci queries so you don't have to jump through hoops to figure out how
     # to convert ed25519 keys to the appropriate bech32 address
     valoper_address: <quickvaloper1...>
@@ -107,11 +107,11 @@ chains:
     # Multiple hosts are encouraged, and will be tried sequentially until a working endpoint is discovered.
     nodes:
       # URL for the endpoint. Must include protocol://hostname:port
-      - url: https://quicksilver-rpc.theamsolutions.info:443
+      - url: https://rpc.quicksilver.zone:443
         # Should we send an alert if this host isn't responding?
         alert_if_down: yes
       # repeat hosts for monitoring redundancy
-      - url: https://quicksilver.rpc.bccnodes.com:443
+      - url: https://quicksilver-rpc.theamsolutions.info:443
         alert_if_down: no
-      - url: https://rpc.qck-main.mcbnode.online:443
+      - url: https://quicksilver-rpc.lavenderfive.com:443
         alert_if_down: no
