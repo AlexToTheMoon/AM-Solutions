@@ -34,7 +34,9 @@
 
 [Quicksilver Services  | https://www.theamsolutions.info/quicksilver-mainnet ](https://www.theamsolutions.info/quicksilver-mainnet)  
 
-[Quicksilver-2 TMKMS setup GUIDE](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/tkms/quicksilver/README.md)
+[Quicksilver-2 TMKMS setup GUIDE](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/tkms/quicksilver/README.md)  
+
+[Telegram ALARM / notification BOT for Quicksilver](https://github.com/AlexToTheMoon/AM-Solutions/tree/main/Tenderduty/quicksilver)
 * * *
 **C4E Chain**  
 
