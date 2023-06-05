@@ -1,4 +1,6 @@
 ## TMKMS - KEY MANAGMENT GUIDES 
+[C4E chain TMKMS Guide](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/tkms/c4e/README.md)
+* * *
 [Quicksilver TMKMS Guide](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/tkms/quicksilver/README.md)  
 * * *
 [Evmos TMKMS Guide](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/tkms/evmos/evmos_9001-2.md)
