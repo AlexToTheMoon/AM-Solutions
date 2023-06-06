@@ -40,7 +40,11 @@
 * * *
 **C4E Chain**  
 
-[C4E Chain | https://www.theamsolutions.info/c4e ](https://www.theamsolutions.info/c4e)
+[C4E Chain | https://www.theamsolutions.info/c4e ](https://www.theamsolutions.info/c4e)  
+
+[Telegram ALARM / notification BOT for C4E](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/c4e/README.md)  
+
+[C4E TMKMS setup GUIDE](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/tkms/c4e/README.md)
 * * *
 **STRIDE**  
 
