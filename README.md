@@ -18,6 +18,13 @@
 
 [Umee TMKMS setup GUIDE](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/tkms/umee/canon-2-guide.md)
 * * *
+**QWOYN**  
+
+[Qwoyn | https://www.theamsolutions.info/qwoyn](https://www.theamsolutions.info/qwoyn)  
+
+[Qwoyn TMKMS setup GUIDE](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/tkms/qwoyn/README.md)
+* * *
+
 **REGEN**  
 
 [Regen | https://www.theamsolutions.info/regen-services ](https://www.theamsolutions.info/regen-services) 
