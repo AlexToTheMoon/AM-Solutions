@@ -139,7 +139,7 @@
               {
                 "id": "color",
                 "value": {
-                  "fixedColor": "orange",
+                  "fixedColor": "dark-orange",
                   "mode": "fixed"
                 }
               },
@@ -273,7 +273,7 @@
       "fieldConfig": {
         "defaults": {
           "color": {
-            "fixedColor": "orange",
+            "fixedColor": "dark-orange",
             "mode": "fixed"
           },
           "custom": {
@@ -533,7 +533,7 @@
       "fieldConfig": {
         "defaults": {
           "color": {
-            "fixedColor": "orange",
+            "fixedColor": "dark-orange",
             "mode": "fixed"
           },
           "custom": {
@@ -652,7 +652,7 @@
                 "value": 20
               },
               {
-                "color": "orange",
+                "color": "dark-orange",
                 "value": 50
               }
             ]
@@ -705,7 +705,7 @@
       "fieldConfig": {
         "defaults": {
           "color": {
-            "fixedColor": "orange",
+            "fixedColor": "dark-orange",
             "mode": "fixed"
           },
           "custom": {
@@ -813,7 +813,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "orange",
+                "color": "semi-dark-orange",
                 "value": null
               },
               {
@@ -869,7 +869,7 @@
       "fieldConfig": {
         "defaults": {
           "color": {
-            "fixedColor": "orange",
+            "fixedColor": "dark-orange",
             "mode": "fixed"
           },
           "custom": {
@@ -1035,7 +1035,7 @@
       "fieldConfig": {
         "defaults": {
           "color": {
-            "fixedColor": "orange",
+            "fixedColor": "dark-orange",
             "mode": "fixed"
           },
           "custom": {
@@ -1267,7 +1267,7 @@
       "fieldConfig": {
         "defaults": {
           "color": {
-            "fixedColor": "orange",
+            "fixedColor": "dark-orange",
             "mode": "fixed"
           },
           "custom": {
@@ -1365,7 +1365,7 @@
       "fieldConfig": {
         "defaults": {
           "color": {
-            "fixedColor": "orange",
+            "fixedColor": "dark-orange",
             "mode": "fixed"
           },
           "custom": {
@@ -1463,7 +1463,7 @@
       "fieldConfig": {
         "defaults": {
           "color": {
-            "fixedColor": "orange",
+            "fixedColor": "dark-orange",
             "mode": "fixed"
           },
           "custom": {
@@ -1584,13 +1584,13 @@
     ]
   },
   "time": {
-    "from": "now-6h",
+    "from": "now-1h",
     "to": "now"
   },
   "timepicker": {},
   "timezone": "",
   "title": "Archway Validator Health",
   "uid": "43Dxu7j4z",
-  "version": 26,
+  "version": 27,
   "weekStart": ""
 }
