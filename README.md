@@ -23,8 +23,6 @@
 
 [Telegram ALARM / notification BOT for Umee](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/Umee-Setup.md)
 
-[Umee Peggo relayer notificator | https://github.com/AlexToTheMoon/Peggo-Notificator ](https://github.com/AlexToTheMoon/Peggo-Notificator)
-
 [Umee TMKMS setup GUIDE](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/tkms/umee/canon-2-guide.md)
 * * *
 **QWOYN**  
