@@ -93,7 +93,7 @@
 
 [TMKMS Remote Signing setup for Celestia Blockspace Race testnet](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/tkms/celestia/blockspacerace.md)
 * * *
-[Archway Constantine-1 services ](https://www.theamsolutions.info/archway-constantine)
+[Archway Constantine  services ](https://www.theamsolutions.info/archway-constantine)
 * * *
 [Umee TESTNET services](https://www.theamsolutions.info/umee-testnet)
 * * *
