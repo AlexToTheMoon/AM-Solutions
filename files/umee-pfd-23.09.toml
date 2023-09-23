@@ -102,6 +102,14 @@ threshold = "1.5"
 base = "CBETH"
 threshold = "1.5"
 
+[[deviation_thresholds]]
+base = "stJUNO"
+threshold = "2"
+
+[[deviation_thresholds]]
+base = "USK"
+threshold = "2"
+
 [[currency_pairs]]
 base = "UMEE"
 providers = [
@@ -235,7 +243,6 @@ quote = "USD"
 base = "stATOM"
 providers = [
   "osmosisv2",
-  "crescent",
 ]
 quote = "ATOM"
 
@@ -387,29 +394,40 @@ providers = [
 ]
 quote = "JUNO"
 
-[account]
-address = ""
-chain_id = ""
-validator = ""
+[[currency_pairs]]
+base = "USK"
+providers = [
+  "kujira",
+]
+quote = "USDC"
 
-backend = ""
-dir = ""
+[account]
+address = "umee1..."
+chain_id = "umee-1"
+validator = "umeevaloper1"
+
+backend = "os"
+dir = "/home/umee/.umee"
 pass = ""
 
 [rpc]
-grpc_endpoint = ""
-rpc_timeout = ""
-tmrpc_endpoint = "" 
-
+grpc_endpoint = "localhost:9090"
+rpc_timeout = "100ms"
+tmrpc_endpoint = "http://localhost:26657"
 
 [telemetry]
 enable-hostname = true
 enable-hostname-label = true
 enable-service-label = true
 enabled = true
-global-labels = [["chain_id", "umee-local-testnet"]]
+global-labels = [["chain_id", "umee-1"]]
 service-name = "price-feeder"
 prometheus-retention-time = 100
+
+[[provider_endpoints]]
+name = "binance"
+rest = "https://api1.binance.com"
+websocket = "stream.binance.com:9443"
 
 [[provider_endpoints]]
 name = "osmosisv2"
