@@ -110,6 +110,14 @@ threshold = "2"
 base = "USK"
 threshold = "2"
 
+[[deviation_thresholds]]
+base = "NCT"
+threshold = "2"
+
+[[deviation_thresholds]]
+base = "SOMM"
+threshold = "2"
+
 [[currency_pairs]]
 base = "UMEE"
 providers = [
@@ -400,6 +408,27 @@ providers = [
   "kujira",
 ]
 quote = "USDC"
+
+[[currency_pairs]]
+base = "NCT"
+providers = [
+  "osmosisv2",
+]
+quote = "OSMO"
+
+[[currency_pairs]]
+base = "SOMM"
+providers = [
+  "osmosisv2",
+]
+quote = "OSMO"
+
+[[currency_pairs]]
+base = "SOMM"
+providers = [
+  "gate",
+]
+quote = "USDT"
 
 [account]
 address = "umee1..."
