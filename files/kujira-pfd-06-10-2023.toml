@@ -451,16 +451,6 @@ derivative = "twap"
 derivative_period = "30m"
 
 [[currency_pairs]]
-base = "RLB"
-quote = "USDC"
-providers = ["uniswapv3"]
-
-[[currency_pairs]]
-base = "RLB"
-quote = "USDT"
-providers = ["uniswapv3"]
-
-[[currency_pairs]]
 base = "HNT"
 quote = "USDT"
 providers = ["bitget", "gate", "okx", "kucoin", "bitmart", "bybit"]
