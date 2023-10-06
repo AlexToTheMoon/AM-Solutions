@@ -22,6 +22,10 @@ base = "KUJI"
 threshold = "2"
 
 [[provider_min_overrides]]
+denoms = ["RLB"]
+providers = 1
+
+[[provider_min_overrides]]
 denoms = ["STARS", "SOMM"]
 providers = 1
 
