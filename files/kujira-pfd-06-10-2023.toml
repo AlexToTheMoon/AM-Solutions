@@ -416,6 +416,16 @@ derivative = "twap"
 derivative_period = "30m"
 
 [[currency_pairs]]
+base = "SOL"
+quote = "USDT"
+providers = ["binance", "huobi", "okx", "bybit", "xt", "gate", "bitget", "kucoin"]
+
+[[currency_pairs]]
+base = "SOL"
+quote = "USD"
+providers = ["coinbase", "kraken"]
+
+[[currency_pairs]]
 base = "STARS"
 quote = "OSMO"
 providers = ["osmosisv2"]
