@@ -560,5 +560,5 @@ websocket = "api.cresc-api.prod.ojo.network"
 
 [[provider_endpoints]]
 name = "eth-uniswap"
-rest = "https://api.studio.thegraph.com/query/46403/unidexer/version/latest"
+rest = "http://104.197.233.185:8000/subgraphs/name/ojo-network/unidexer"
 websocket = "not supported"
