@@ -141,7 +141,6 @@ threshold = "2"
 [[currency_pairs]]
 base = "UMEE"
 providers = [
-  "okx",
   "gate",
 ]
 quote = "USDT"
@@ -172,7 +171,6 @@ quote = "USD"
 [[currency_pairs]]
 base = "ATOM"
 providers = [
-  "okx",
   "bitget",
 ]
 quote = "USDT"
@@ -188,7 +186,6 @@ quote = "USD"
 [[currency_pairs]]
 base = "USDC"
 providers = [
-  "okx",
   "bitget",
   "kraken",
 ]
@@ -197,7 +194,6 @@ quote = "USDT"
 [[currency_pairs]]
 base = "DAI"
 providers = [
-  "okx",
   "bitget",
   "huobi",
 ]
@@ -213,7 +209,6 @@ quote = "USD"
 [[currency_pairs]]
 base = "ETH"
 providers = [
-  "okx",
   "bitget",
 ]
 quote = "USDT"
@@ -228,7 +223,6 @@ quote = "USD"
 [[currency_pairs]]
 base = "WBTC"
 providers = [
-  "okx",
   "bitget",
   "crypto",
 ]
@@ -239,7 +233,6 @@ base = "CRO"
 providers = [
   "crypto",
   "bitget",
-  "okx",
 ]
 quote = "USDT"
 
@@ -248,7 +241,6 @@ base = "BNB"
 providers = [
   "mexc",
   "bitget",
-  "okx",
 ]
 quote = "USDT"
 
@@ -381,7 +373,7 @@ providers = [ "osmosis",]
 [[currency_pairs]]
 base = "LUNA"
 quote = "USDT"
-providers = [ "okx", "gate", "huobi", "bitget",]
+providers = [ "gate", "huobi", "bitget",]
 
 [[currency_pairs]]
 base = "WAXL"
