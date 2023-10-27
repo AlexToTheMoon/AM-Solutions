@@ -129,7 +129,7 @@ def test_tendermint_rpc_info(base_url, test_values):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('rest', help="axelar node rest endpoint")
-    parser.add_argument('tendermintrpc', help="evmos node tendermint-rpc endpoint")
+    parser.add_argument('tendermintrpc', help="axelar node tendermint-rpc endpoint")
     parser.add_argument('--network', help="mainnet or testnet, default mainnet", default='mainnet')
 
     args = parser.parse_args()
