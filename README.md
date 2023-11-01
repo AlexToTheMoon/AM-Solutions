@@ -7,7 +7,7 @@
 
 [Archway TMKMS remote signer guide](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/tkms/archway/README.md)
 
-[Validator's Health GRAFANA Dashboard](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/archway-dash/README.md)
+[Validator's Health GRAFANA Dashboard](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/archway-dash/README.md)  
 * * * 
 **EVMOS**  
 
@@ -15,7 +15,9 @@
 
 [Evmos TMKMS remote signer Guide](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/tkms/evmos/evmos_9001-2.md)
 
-[Telegram ALARM / notification BOT for EVMOS](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/evmos/README.md)
+[Telegram ALARM / notification BOT for EVMOS](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/evmos/README.md)  
+
+[Validator`s Health GRAFANA Dashboard](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/evmos-dash/README.md)
 * * *
 **UMEE**  
 
