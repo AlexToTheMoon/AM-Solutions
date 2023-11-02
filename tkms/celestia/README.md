@@ -1,4 +1,4 @@
-## Remote Signing setup via TMKMS for Celestia "blockspacerace-0" testnet.
+## Remote Signing setup via TMKMS for Celestia mainnet
 
 #### Please notice:
 
@@ -70,17 +70,17 @@ rm -rf ~/tmkms/celestia/tmkms.toml
 tee ~/tmkms/celestia/tmkms.toml << EOF
 #Tendermint KMS configuration file
 [[chain]]
-id = "blockspacerace-0"
+id = "celestia"
 key_format = { type = "bech32", account_key_prefix = "celestiapub", consensus_key_prefix = "celestiavalconspub" }
-state_file = "$HOME/tmkms/celestia/state/blockspacerace-0_priv_validator_state.json"
+state_file = "$HOME/tmkms/celestia/state/celestia_priv_validator_state.json"
 #Software-based Signer Configuration
 [[providers.softsign]]
-chain_ids = ["blockspacerace-0"]
+chain_ids = ["celestia"]
 key_type = "consensus"
 path = "$HOME/tmkms/celestia/secrets/celestia-consensus.key"
 #Validator Configuration
 [[validator]]
-chain_id = "blockspacerace-0"
+chain_id = "celestia"
 addr = "tcp://0.0.0.0:26658" #Set here IP and port of the Celestia node U will be using for signing blocks (port can be custom)   
 secret_key = "$HOME/tmkms/celestia/secrets/kms-identity.key"
 protocol_version = "v0.34"
@@ -92,7 +92,7 @@ EOF
 ```
 sudo tee /etc/systemd/system/tmkmsd.service << EOF
 [Unit]
-Description=TMKMS
+Description=TMKMS-Celestia
 After=network.target
 StartLimitIntervalSec=0
 [Service]
@@ -121,7 +121,7 @@ Sample of normal logs at present stage
 `INFO tmkms::commands::start: tmkms 0.12.2 starting up...`    
 `INFO tmkms::keyring: [keyring:softsign] added consensus Ed25519 key: celestiavalcons1....`    
 `INFO tmkms::connection::tcp: KMS node ID: a1dbc4edb1dbb2bcd9316081bd810f57e0d`  
-`ERROR tmkms::client: [blockspacerace-0@tcp://<NODE IP>:26658] I/O error: Connection`  
+`ERROR tmkms::client: [celestia@tcp://<NODE IP>:26658] I/O error: Connection`  
 
 #### LAST STEPS. Activate signing from Celestia-App node side
 
@@ -135,13 +135,13 @@ If u have more than one IP u have to set right IP (the same as in tmkms config f
 ##### Restart Celestia-App node and check TMKMS logs   
 
 Good logs example :  
-`INFO tmkms::session: [blockspacerace-0@tcp://<IP>:26658] connected to validator successfully`
+`INFO tmkms::session: [celestia@tcp://<IP>:26658] connected to validator successfully`
 
-`WARN tmkms::session: [blockspacerace-0@tcp://<IP>:26658]: unverified validator peer ID! (ad1fc4b45ee2340bb8148d7247bf82ea780y213q)`  
-`INFO tmkms::session: [blockspacerace-0@tcp://<IP>:26658] signed PreCommit:<nil> at h/r/s 8825119/0/2 (0 ms)`  
-`INFO tmkms::session: [blockspacerace-0@tcp://<IP>:26658] signed PreVote:144665D1CE at h/r/s 8825120/0/1 (0 ms)`  
-`INFO tmkms::session: [blockspacerace-0@tcp://<IP>:26658] signed PreCommit:144665D1CE at h/r/s 8825120/0/2 (0 ms)`  
-`INFO tmkms::session: [blockspacerace-0@tcp://<IP>:26658] signed PreVote:13BF759486 at h/r/s 8825121/0/1 (0 ms)`  
+`WARN tmkms::session: [celestia@tcp://<IP>:26658]: unverified validator peer ID! (ad1fc4b45ee2340bb8148d7247bf82ea780y213q)`  
+`INFO tmkms::session: [celestia@tcp://<IP>:26658] signed PreCommit:<nil> at h/r/s 8825119/0/2 (0 ms)`  
+`INFO tmkms::session: [celestia@tcp://<IP>:26658] signed PreVote:144665D1CE at h/r/s 8825120/0/1 (0 ms)`  
+`INFO tmkms::session: [celestia@tcp://<IP>:26658] signed PreCommit:144665D1CE at h/r/s 8825120/0/2 (0 ms)`  
+`INFO tmkms::session: [celestia@tcp://<IP>:26658] signed PreVote:13BF759486 at h/r/s 8825121/0/1 (0 ms)`  
 
 
 ### Backup in safe place priv_validator_key.json and delete it from Validator node. Now U signing from KMS server!
