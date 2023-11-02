@@ -4,6 +4,10 @@
 
 [Celestia  | https://www.theamsolutions.info/celestia](https://www.theamsolutions.info/celestia)  
 
+[Celestia TMKMS remote signer guide](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/tkms/celestia/README.md)
+
+[Validator's Health GRAFANA Dashboard](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/celestia-dash/README.md) 
+
 * * *
 **ARCHWAY**  
 
