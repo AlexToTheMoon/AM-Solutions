@@ -1,47 +1,4 @@
 {
-  "__inputs": [
-    {
-      "name": "DS_DS_PROM",
-      "label": "DS_PROM",
-      "description": "",
-      "type": "datasource",
-      "pluginId": "prometheus",
-      "pluginName": "Prometheus"
-    }
-  ],
-  "__elements": {},
-  "__requires": [
-    {
-      "type": "panel",
-      "id": "gauge",
-      "name": "Gauge",
-      "version": ""
-    },
-    {
-      "type": "grafana",
-      "id": "grafana",
-      "name": "Grafana",
-      "version": "10.0.2"
-    },
-    {
-      "type": "datasource",
-      "id": "prometheus",
-      "name": "Prometheus",
-      "version": "1.0.0"
-    },
-    {
-      "type": "panel",
-      "id": "stat",
-      "name": "Stat",
-      "version": ""
-    },
-    {
-      "type": "panel",
-      "id": "timeseries",
-      "name": "Time series",
-      "version": ""
-    }
-  ],
   "annotations": {
     "list": [
       {
@@ -68,14 +25,14 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
-  "id": null,
+  "id": 20,
   "links": [],
   "liveNow": false,
   "panels": [
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_DS_PROM}"
+        "uid": "${DS}"
       },
       "description": "",
       "fieldConfig": {
@@ -174,7 +131,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_DS_PROM}"
+            "uid": "${DS}"
           },
           "editorMode": "code",
           "expr": "rate(cometbft_consensus_validator_missed_blocks{chain_id=\"evmos_9001-2\"}[5m])",
@@ -185,7 +142,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_DS_PROM}"
+            "uid": "${DS}"
           },
           "editorMode": "code",
           "expr": "rate(cometbft_consensus_validator_missed_blocks{chain_id=\"evmos_9001-2\"}[6h])",
@@ -201,7 +158,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_DS_PROM}"
+        "uid": "${DS}"
       },
       "description": "",
       "fieldConfig": {
@@ -253,7 +210,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_DS_PROM}"
+            "uid": "${DS}"
           },
           "editorMode": "code",
           "expr": "cometbft_consensus_validator_missed_blocks{chain_id=\"evmos_9001-2\"}",
@@ -268,7 +225,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_DS_PROM}"
+        "uid": "${DS}"
       },
       "fieldConfig": {
         "defaults": {
@@ -346,7 +303,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_DS_PROM}"
+            "uid": "${DS}"
           },
           "editorMode": "code",
           "expr": "cometbft_consensus_validator_power{chain_id=\"evmos_9001-2\"}",
@@ -361,7 +318,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_DS_PROM}"
+        "uid": "${DS}"
       },
       "description": "",
       "fieldConfig": {
@@ -414,7 +371,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_DS_PROM}"
+            "uid": "${DS}"
           },
           "editorMode": "code",
           "expr": "cometbft_consensus_validator_power{chain_id=\"evmos_9001-2\"}",
@@ -429,7 +386,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_DS_PROM}"
+        "uid": "${DS}"
       },
       "description": "",
       "fieldConfig": {
@@ -483,7 +440,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_DS_PROM}"
+            "uid": "${DS}"
           },
           "editorMode": "code",
           "expr": "cometbft_consensus_height{chain_id=\"evmos_9001-2\"}",
@@ -498,7 +455,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_DS_PROM}"
+        "uid": "${DS}"
       },
       "description": "consensus height",
       "fieldConfig": {
@@ -580,7 +537,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_DS_PROM}"
+            "uid": "${DS}"
           },
           "editorMode": "code",
           "expr": "cometbft_consensus_height{chain_id=\"evmos_9001-2\"}",
@@ -595,7 +552,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_DS_PROM}"
+        "uid": "${DS}"
       },
       "description": "",
       "fieldConfig": {
@@ -652,7 +609,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_DS_PROM}"
+            "uid": "${DS}"
           },
           "editorMode": "code",
           "expr": "cometbft_consensus_validators{chain_id=\"evmos_9001-2\"}",
@@ -667,7 +624,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_DS_PROM}"
+        "uid": "${DS}"
       },
       "fieldConfig": {
         "defaults": {
@@ -749,7 +706,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_DS_PROM}"
+            "uid": "${DS}"
           },
           "editorMode": "code",
           "expr": "cometbft_p2p_peers{chain_id=\"evmos_9001-2\"}",
@@ -764,7 +721,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_DS_PROM}"
+        "uid": "${DS}"
       },
       "description": "",
       "fieldConfig": {
@@ -820,7 +777,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_DS_PROM}"
+            "uid": "${DS}"
           },
           "editorMode": "code",
           "expr": "cometbft_p2p_peers{chain_id=\"evmos_9001-2\"}",
@@ -835,7 +792,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_DS_PROM}"
+        "uid": "${DS}"
       },
       "fieldConfig": {
         "defaults": {
@@ -917,7 +874,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_DS_PROM}"
+            "uid": "${DS}"
           },
           "editorMode": "code",
           "expr": "cometbft_consensus_validators_power{chain_id=\"evmos_9001-2\"}",
@@ -932,7 +889,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_DS_PROM}"
+        "uid": "${DS}"
       },
       "description": "",
       "fieldConfig": {
@@ -986,7 +943,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_DS_PROM}"
+            "uid": "${DS}"
           },
           "editorMode": "code",
           "expr": "cometbft_consensus_total_txs{chain_id=\"archway-1\"}",
@@ -1001,7 +958,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_DS_PROM}"
+        "uid": "${DS}"
       },
       "fieldConfig": {
         "defaults": {
@@ -1083,7 +1040,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_DS_PROM}"
+            "uid": "${DS}"
           },
           "editorMode": "code",
           "expr": "cometbft_consensus_num_txs{chain_id=\"evmos_9001-2\"}",
@@ -1098,7 +1055,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_DS_PROM}"
+        "uid": "${DS}"
       },
       "description": "",
       "fieldConfig": {
@@ -1152,7 +1109,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_DS_PROM}"
+            "uid": "${DS}"
           },
           "editorMode": "code",
           "expr": "cometbft_mempool_recheck_times{chain_id=\"archway-1\"}",
@@ -1167,7 +1124,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_DS_PROM}"
+        "uid": "${DS}"
       },
       "description": "",
       "fieldConfig": {
@@ -1218,7 +1175,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_DS_PROM}"
+            "uid": "${DS}"
           },
           "editorMode": "code",
           "expr": "cometbft_mempool_size{chain_id=\"evmos_9001-2\"}",
@@ -1233,7 +1190,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_DS_PROM}"
+        "uid": "${DS}"
       },
       "fieldConfig": {
         "defaults": {
@@ -1312,7 +1269,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_DS_PROM}"
+            "uid": "${DS}"
           },
           "editorMode": "code",
           "expr": "cometbft_consensus_block_size_bytes{chain_id=\"evmos_9001-2\"} ",
@@ -1327,7 +1284,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_DS_PROM}"
+        "uid": "${DS}"
       },
       "fieldConfig": {
         "defaults": {
@@ -1410,7 +1367,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_DS_PROM}"
+            "uid": "${DS}"
           },
           "editorMode": "code",
           "expr": "sum(rate(cometbft_p2p_peer_send_bytes_total{chain_id=\"evmos_9001-2\"}[5m])) / 1000",
@@ -1425,7 +1382,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_DS_PROM}"
+        "uid": "${DS}"
       },
       "fieldConfig": {
         "defaults": {
@@ -1508,7 +1465,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_DS_PROM}"
+            "uid": "${DS}"
           },
           "editorMode": "code",
           "expr": "sum(rate(cometbft_p2p_peer_receive_bytes_total{chain_id=\"evmos_9001-2\"}[5m])) / 1000",
@@ -1551,7 +1508,7 @@
     ]
   },
   "time": {
-    "from": "now-30m",
+    "from": "now-1h",
     "to": "now"
   },
   "timepicker": {},
