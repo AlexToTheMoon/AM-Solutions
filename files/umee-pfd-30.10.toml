@@ -142,6 +142,10 @@ threshold = "2"
 base = "STARS"
 threshold = "2"
 
+[[deviation_thresholds]]
+base = "INJ"
+threshold = "2"
+
 [[currency_pairs]]
 base = "UMEE"
 providers = [
@@ -529,6 +533,16 @@ providers = [
   "osmosis",
 ]
 quote = "OSMO"
+
+[[currency_pairs]]
+base = "INJ"
+providers = [
+  "binance",
+  "gate",
+  "bitget",
+  "mexc",
+]
+quote = "USDT"
 
 [account]
 address = "umee1..."
