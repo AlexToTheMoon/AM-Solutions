@@ -13,6 +13,8 @@
 
 [Archway  | https://www.theamsolutions.info/archway](https://www.theamsolutions.info/archway)  
 
+[Telegram ALARM / notification BOT for Archway](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/archway/README.md)
+
 [Archway TMKMS remote signer guide](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/tkms/archway/README.md)
 
 [Validator's Health GRAFANA Dashboard](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/archway-dash/README.md)  
