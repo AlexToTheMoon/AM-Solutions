@@ -72,6 +72,11 @@
 
 [C4E TMKMS setup GUIDE](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/tkms/c4e/README.md)
 * * *
+**GNOSIS**  
+
+[Mainnet Node launch guide | https://www.theamsolutions.info/gnosis-mainnet ](https://www.theamsolutions.info/gnosis-mainnet)
+* * *
+
 **STRIDE**  
 
 [Stride | https://www.theamsolutions.info/stride ](https://www.theamsolutions.info/stride)
@@ -83,11 +88,6 @@
 [Rebus | https://www.theamsolutions.info/stride ](https://www.theamsolutions.info/rebus)
 
 [Telegram ALARM / notification BOT for Rebus](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/rebus/manual.md)
-* * *
-**GNOSIS**  
-
-[Mainnet Node launch guide | https://www.theamsolutions.info/gnosis-mainnet ](https://www.theamsolutions.info/gnosis-mainnet)
-
 * * *
 **MEME**  
 
