@@ -2,7 +2,7 @@
 * * *
 **CELESTIA**  
 
-[Celestia  | https://www.theamsolutions.info/celestia](https://www.theamsolutions.info/celestia)  
+[Celestia Services | https://www.theamsolutions.info/celestia](https://www.theamsolutions.info/celestia)  
 
 [Celestia TMKMS remote signer guide](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/tkms/celestia/README.md)
 
@@ -11,7 +11,7 @@
 * * *
 **ARCHWAY**  
 
-[Archway  | https://www.theamsolutions.info/archway](https://www.theamsolutions.info/archway)  
+[Archway Services | https://www.theamsolutions.info/archway](https://www.theamsolutions.info/archway)  
 
 [Telegram ALARM / notification BOT for Archway](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/archway/README.md)
 
@@ -21,7 +21,7 @@
 * * * 
 **EVMOS**  
 
-[Evmos | https://www.theamsolutions.info/evmos-services](https://www.theamsolutions.info/evmos-services)
+[Evmos Services | https://www.theamsolutions.info/evmos-services](https://www.theamsolutions.info/evmos-services)
 
 [Evmos TMKMS remote signer Guide](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/tkms/evmos/evmos_9001-2.md)
 
@@ -31,7 +31,7 @@
 * * *
 **UMEE**  
 
-[Umee | https://www.theamsolutions.info/umee-services ](https://www.theamsolutions.info/umee-services)
+[Umee Services | https://www.theamsolutions.info/umee-services ](https://www.theamsolutions.info/umee-services)
 
 [Telegram ALARM / notification BOT for Umee](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/Umee-Setup.md)
 
@@ -39,14 +39,14 @@
 * * *
 **QWOYN**  
 
-[Qwoyn | https://www.theamsolutions.info/qwoyn](https://www.theamsolutions.info/qwoyn)  
+[Qwoyn Services | https://www.theamsolutions.info/qwoyn](https://www.theamsolutions.info/qwoyn)  
 
 [Qwoyn TMKMS setup GUIDE](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/tkms/qwoyn/README.md)
 * * *
 
 **REGEN**  
 
-[Regen | https://www.theamsolutions.info/regen-services ](https://www.theamsolutions.info/regen-services) 
+[Regen Services | https://www.theamsolutions.info/regen-services ](https://www.theamsolutions.info/regen-services) 
 
 [Regen TMKMS setup Guide ](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/tkms/regen/regen-1.md)
 
@@ -54,7 +54,7 @@
 * * *
 **KUJIRA**  
 
-[Kujira | https://www.theamsolutions.info/kujira ](https://www.theamsolutions.info/kujira)
+[Kujira Services | https://www.theamsolutions.info/kujira ](https://www.theamsolutions.info/kujira)
 * * *
 **QUICKSILVER**  
 
@@ -66,7 +66,7 @@
 * * *
 **C4E Chain**  
 
-[C4E Chain | https://www.theamsolutions.info/c4e ](https://www.theamsolutions.info/c4e)  
+[C4E Services | https://www.theamsolutions.info/c4e ](https://www.theamsolutions.info/c4e)  
 
 [Telegram ALARM / notification BOT for C4E](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/c4e/README.md)  
 
