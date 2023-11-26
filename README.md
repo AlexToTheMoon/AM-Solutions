@@ -8,6 +8,8 @@
 
 [Validator's Health GRAFANA Dashboard](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/celestia-dash/README.md) 
 
+[Telegram ALARM / notification BOT for Celestia](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/celestia/README.md)
+
 * * *
 **ARCHWAY**  
 
