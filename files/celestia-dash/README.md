@@ -1,7 +1,9 @@
 ## Celestia Validator's health Grafana dashboard
 * * *
 
-DOWNLOAD **[HERE](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/celestia-dash/celestia-dash.json)**
+DASHBOARD DOWNLOAD **[HERE](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/celestia-dash/celestia-dash.json)** 
+
+Grafana installation guide **[HERE](https://github.com/AlexToTheMoon/AM-Solutions/tree/main/files/grafana/readme)**
 * * *
 
 ![](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/celestia-dash/celestia-dash.png)
