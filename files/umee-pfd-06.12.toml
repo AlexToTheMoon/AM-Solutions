@@ -1,4 +1,4 @@
-gas_adjustment = 1.1
+gas_adjustment = 2.0
 provider_timeout = "1000000s"
 
 [server]
