@@ -98,7 +98,8 @@
 * * *
  ## Testnet`s
  * * * 
-
+[Namada Services / Guides](https://www.theamsolutions.info/namada)  
+* * *  
 [Celestia "Blockspace" Testnet Services / Guides ](https://www.theamsolutions.info/celestia)
 
 [Telegram ALARM / notification BOT for Celestia "blockspacerace-0" testnet](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/celestia/manual.md)  
