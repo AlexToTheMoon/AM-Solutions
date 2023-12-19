@@ -99,6 +99,8 @@
  ## Testnet`s
  * * * 
 [Namada Services / Guides](https://www.theamsolutions.info/namada)  
+
+[Validator`s Health Grafana Dashboard for Namada](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/namada-dash/README.md)
 * * *  
 [Celestia "Blockspace" Testnet Services / Guides ](https://www.theamsolutions.info/celestia)
 
