@@ -1,6 +1,6 @@
-gas_adjustment = 3.0
+gas_adjustment = 2.7
 
-gas_prices = "0.00125ukuji"
+gas_prices = "0.0034ukuji"
 enable_server = true
 enable_voter = true
 provider_timeout = "1000ms"
@@ -514,6 +514,15 @@ providers = ["finv2"]
 derivative = "twap"
 derivative_period = "30m"
 
+[[currency_pairs]]
+base = "AXL"
+quote = "USD"
+providers = ["coinbase", "crypto"]
+
+[[currency_pairs]]
+base = "AXL"
+quote = "USDT"
+providers = ["bitget", "gate", "huobi", "kucoin", "mexc"]
 
 [account]
 fee_granter = ""
