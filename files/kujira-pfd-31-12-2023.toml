@@ -13,6 +13,8 @@ read_timeout = "20s"
 verbose_cors = true
 write_timeout = "20s"
 
+#DEVIATION THRESHOLDS
+
 [[deviation_thresholds]]
 base = "USDT"
 threshold = "2"
@@ -21,41 +23,40 @@ threshold = "2"
 base = "KUJI"
 threshold = "2"
 
-[[provider_min_overrides]]
-denoms = ["RLB"]
-providers = 1
+
+[[deviation_thresholds]]
+base = "WHALE"
+threshold = "2"
+
+#PROVIDER OVERRIDES
 
 [[provider_min_overrides]]
-denoms = ["STARS", "SOMM"]
-providers = 1
-
-[[provider_min_overrides]]
-denoms = ["STATOM", "STOSMO", "MNTA", "WINK", "USK"]
-providers = 1
-
-[[provider_min_overrides]]
-denoms = ["WSTETH", "WETH"]
+denoms = [
+  "AMPKUJI",
+  "JUNO",
+  "MNTA",
+  "NSTK",
+  "NTRN",
+  "QCKUJI",
+  "QCMNTA",
+  "RLB",
+  "SOMM",
+  "STARS",
+  "STATOM",
+  "STOSMO",
+  "USK",
+  "WETH",
+  "WHALE",
+  "WINK",
+  "WSTETH",
+]
 providers = 1
 
 [[provider_min_overrides]]
 denoms = ["KUJI"]
-providers = 1
+providers = 2
 
-[[provider_min_overrides]]
-denoms = ["NTRN"]
-providers = 1
-
-[[provider_min_overrides]]
-denoms = ["AMPKUJI"]
-providers = 1
-
-[[provider_min_overrides]]                                                                                 
-denoms = ["QCKUJI", "QCMNTA", "NSTK"]
-providers = 1
-
-[[provider_min_overrides]]
-denoms = ["JUNO"]
-providers = 1
+#CURRENCY PAIRS
 
 [[currency_pairs]]
 base = "AKT"
@@ -524,6 +525,27 @@ base = "AXL"
 quote = "USDT"
 providers = ["bitget", "gate", "huobi", "kucoin", "mexc"]
 
+[[currency_pairs]]
+base = "WHALE"
+quote = "USDT"
+providers = ["mexc"]
+derivative = "twap"
+derivative_period = "30m"
+
+[[currency_pairs]]
+base = "WHALE"
+quote = "OSMO"
+providers = ["osmosisv2"]
+derivative = "twap"
+derivative_period = "30m"
+
+[[currency_pairs]]
+base = "WHALE"
+quote = "MNTA"
+providers = ["fin"]
+derivative = "twap"
+derivative_period = "30m"
+
 [account]
 fee_granter = ""
 address = ""
@@ -602,6 +624,7 @@ WINKUSK = "kujira1qxtd87qus6uzvqs4jv9r0j9ccd4yla42s6qag7y8fp7hhv68nzas6hqxgw"
 NSTKUSK = "kujira1ggtmfuktfcf6plhtdejyyqn5de5uge3tef0jv64ru68h2ctuvyqs3355mn"
 QCKUJIKUJI = "kujira14wsrem89304kpkl6d0j58dl6479eekwt047ccs0qzv9f60w80wzs8rjq4j"                          
 QCMNTAMNTA = "kujira1ujsr2ge7dr723kse7thjv2rm3k7dkmjaxqzdh8qkcnx5gqz57jsqxy4ker"
+WHALEMNTA = "kujira1865zmuchjd0g0xr2q5n6hm747s8xju5k8h6mympk4vmqefkuy3hqc66tcw"
 
 [contract_addresses.uniswapv3]
 USDCWETH = "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640"
@@ -610,6 +633,7 @@ RLBUSDC = "0x2322e5517a3cbc75a3f02d74c96f82dda120d841"
 RLBWETH = "0x510100d5143e011db24e2aa38abe85d73d5b2177"
 RLBUSDT = "0x33676385160f9d8f03a0db2821029882f7c79e93"
 WETHRIO = "0x5b7e3e37a1aa6369386e5939053779abd3597508"
+WHALEOSMO = "1318"
 
 [contract_addresses.astroport_neutron]
 NTRNATOM = "neutron1e22zh5p8meddxjclevuhjmfj69jxfsa8uu3jvht72rv9d8lkhves6t8veq"
