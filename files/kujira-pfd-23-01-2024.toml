@@ -906,7 +906,7 @@ urls = ["https://kaiyo-1.gigalixirapp.com"]
 # https://cosmos.directory/kujira/nodes (REST)
 [url_set.api_kujira]
 urls = [
-  "http://127.0.0.1:1337", #SETUP YOUR API IF EXIST
+  "http://127.0.0.1:1337", #SET YOUR API IF EXIST
   "https://api-kujira.starsquid.io"
 ]
 
