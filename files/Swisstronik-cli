@@ -1,0 +1,50 @@
+Hello there, unfortunately from 12 available servers have no server supports SGX to test Validator stuff. But going to chase one.. 
+However this about CLI, chain testing.
+
+#Cretaed 2 keys
+swtr19rltdeshhjdk369de7vs2x3af3zgxnz7m20vh8
+swtr1wy5kytwqc43xmev62g36t9nnq4wsqmzt3rx8tj
+
+#TX funds send vice versa (success)
+CB21D5B02964E7590098AD48642096A9732CC3B88D6112D241C1EBD14D70ACB2
+E9FD3D36F53A493387EB981B2BA9CA217EFD359638B5328FE93D8BEDAFFDDCD5
+
+#some more at TX moduledelegate staking 
+487A2BDD09D7C340F1E2809615645A54EC81B995B9055CD7A2C9F0C5F3DD228F
+
+re-delegate
+923A522725BF945B21EF51E109E43ED698C69C369BBB9D9CB8D55A900A59EB38 (--gas 300000)
+
+withdraw-rewards
+988769001F35F80E42B1445426FEF02924BEB315C815D708F1D3A13B1E288848 (--gas 300000)
+
+unbond
+7A2CC6F831FC2E776CB1A102805C5C6E7CE45716845D17FB052105D7DB6A24AC (--gas 300000)
+
+
+#Tested commands 
+All subcommands for : swisstronikcli completion
+Feedback : all work 
+
+All subcommands for : swisstronikcli config
+Feedback : all work 
+
+All subcommands for : swisstronikcli debug
+Feedback : all work
+
+All subcommands for : swisstronikcli keys (apart of --ledger)
+Feedback : At some subcommands like add, --recover it doestn pick keyring-backend type from ~.swisstronik/config/client.toml, so it should be provided manually via --keyring-backend flag. I see this already in the docs, but I wanted to mention that cause it not how it supposed to be IMO.
+
+Biggest part of : swisstronikcli query
+Feedback : havent found any issues
+
+Tested Some RPC calls :
+
+curl -s https://rpc.testnet.swisstronik.com/abci_info
+curl -s https://rpc.testnet.swisstronik.com/abci_info/status
+curl -s https://rpc.testnet.swisstronik.com/block?height=777  |  Noticed here that node is not arhive, highest available block was 780378
+curl -s https://rpc.testnet.swisstronik.com/consensus_params?height=880308
+curl -s https://rpc.testnet.swisstronik.com/net_info | jq -r '.result.peers[] | "\(.node_info.id)@\(.remote_ip):\(.node_info.listen_addr)"' | awk -F ':' '{print $1":"$(NF)}'
+https://rpc.testnet.swisstronik.com/tx?hash=0x923A522725BF945B21EF51E109E43ED698C69C369BBB9D9CB8D55A900A59EB38
+
+
