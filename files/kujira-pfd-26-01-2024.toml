@@ -1,3 +1,4 @@
+#version v0.10.0
 gas_adjustment = 2.7
 
 gas_prices = "0.0034ukuji"
@@ -750,6 +751,13 @@ providers = ["uniswapv3"]
 derivative = "twap"
 derivative_period = "30m"
 
+[[currency_pairs]]
+base = "SHD"
+quote = "MNTA"
+providers = ["finv2", "shade"]
+derivative = "twap"
+derivative_period = "30m"
+
 #
 #  PROVIDER OVERRIDES
 # ------------------------------------------------------------
@@ -823,6 +831,10 @@ url_set = "api_osmosis"
 [[provider_endpoints]]
 name = "uniswapv3"
 url_set = "rpc_ethereum"
+
+[[provider_endpoints]]
+name = "shade"
+url_set = "api_secret"
 
 [contract_addresses.astroport_neutron]
 NTRNATOM = "neutron1e22zh5p8meddxjclevuhjmfj69jxfsa8uu3jvht72rv9d8lkhves6t8veq"
@@ -935,6 +947,15 @@ urls = [
   "https://rpc.ankr.com/eth",
   "https://ethereum.blockpi.network/v1/rpc/public",
   "https://mainnet.infura.io/v3"
+]
+
+# providers: shade
+# https://cosmos.directory/secretnetwork/nodes (REST)
+[url_set.api_secret]
+urls = [
+  "https://secretnetwork-api.highstakes.ch:1317",
+  "https://rest.cosmos.directory/secretnetwork",
+  "https://secretnetwork-api.lavenderfive.com",
 ]
 
 
