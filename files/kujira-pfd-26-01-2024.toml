@@ -772,6 +772,7 @@ denoms = [
     "QCKUJI",
     "QCMNTA",
     "RLB",
+    "SHD",
     "SOMM",
     "STARS",
     "STATOM",
@@ -852,6 +853,7 @@ KUJIUSK = "kujira193dzcmy7lwuj4eda3zpwwt9ejal00xva0vawcvhgsyyp5cfh6jyq66wfrf"
 MNTAUSDC = "kujira1ws9w7wl68prspv3rut3plv8249rm0ea0kk335swye3sl2slld4lqdmc0lv"
 NSTKUSK = "kujira1ggtmfuktfcf6plhtdejyyqn5de5uge3tef0jv64ru68h2ctuvyqs3355mn"
 QCKUJIKUJI = "kujira14wsrem89304kpkl6d0j58dl6479eekwt047ccs0qzv9f60w80wzs8rjq4j"
+SHDMNTA = "kujira14u8ynhj7d8h2379yqj5q2ma0xxpvfjlrpauhzxgnj40ejq953mlsugux8d"
 QCMNTAMNTA = "kujira1ujsr2ge7dr723kse7thjv2rm3k7dkmjaxqzdh8qkcnx5gqz57jsqxy4ker"
 SOMMMNTA = "kujira1nx5lqc2j4w0ak5dxevj82lar5kunxwj5yamr39xqfazmkksx4f2sksf0hz"
 STARSMNTA = "kujira1hsdzhyvuc2z3f8d3yae84uk62d69vk68vxgudkun7gccz6hvrvfq0vx6fd"
@@ -879,6 +881,9 @@ RLBWETH = "0x510100d5143e011db24e2aa38abe85d73d5b2177"
 USDCWETH = "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640"
 WETHRIO = "0x5b7e3e37a1aa6369386e5939053779abd3597508"
 WSTETHWETH = "0x109830a1AAaD605BbF02a9dFA7B0B92EC2FB7dAa"
+
+[contract_addresses.shade]
+SHDMNTA = "secret1hyypq9cd207z2rrsxc7jdtljvfqdeu3gzafs87"
 
 [account]
 fee_granter = ""
