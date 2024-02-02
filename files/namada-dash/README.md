@@ -1,4 +1,4 @@
-## Namada Validator's health dashboard
+## Namada Shielded testnet Validator's health dashboard
 * * *
 
 DASHBOARD DOWNLOAD [HERE](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/namada-dash/Namada%20Validator_Node%20Dashboard%20Shielded.json)  
