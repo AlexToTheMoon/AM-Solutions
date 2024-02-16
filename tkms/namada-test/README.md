@@ -70,17 +70,17 @@ rm -rf ~/tmkms/namada/tmkms.toml
 tee ~/tmkms/namada/tmkms.toml << EOF
 #CometBFT KMS configuration file
 [[chain]]
-id = "shielded-expedition.b40d8e9055"
+id = "shielded-expedition.88f17d1d14"
 key_format = { type = "bech32", account_key_prefix = "namadapub", consensus_key_prefix = "namadavalconspub" }
 state_file = "/home/tmkms/tmkms/namada/state/namada-priv_validator_state.json"
 #Software-based Signer Configuration
 [[providers.softsign]]
-chain_ids = ["shielded-expedition.b40d8e9055"]
+chain_ids = ["shielded-expedition.88f17d1d14"]
 key_type = "consensus"
 path = "/home/tmkms/tmkms/namada/secrets/namada-consensus.key"
 #Validator Configuration
 [[validator]]
-chain_id = "shielded-expedition.b40d8e9055"
+chain_id = "shielded-expedition.88f17d1d14"
 addr = "tcp://0.0.0.0:26658" #Set here IP and port of the Namada node U will be using for signing blocks (port can be custom)   
 secret_key = "/home/tmkms/tmkms/namada/secrets/kms-identity.key"
 protocol_version = "v0.34"
@@ -121,11 +121,11 @@ Sample of normal logs at present stage
 `INFO tmkms::commands::start: tmkms 0.12.2 starting up...`    
 `INFO tmkms::keyring: [keyring:softsign] added consensus Ed25519 key: namadavalconspub1`    
 `INFO tmkms::connection::tcp: KMS node ID: a1dbc4edb1dbb2bcd9316081bd810f57e0d`  
-`ERROR tmkms::client: [shielded-expedition.b40d8e9055@tcp://<NODE IP>:26658] I/O error: Connection`  
+`ERROR tmkms::client: [shielded-expedition.88f17d1d14@tcp://<NODE IP>:26658] I/O error: Connection`  
 
 #### LAST STEPS. Activate signing from Namada node side
 
-Find field `priv_validator_laddr = ""` at dir `$HOME/.local/share/namada/shielded-expedition.b40d8e9055/config.toml` and edit to your Validator IP + port  
+Find field `priv_validator_laddr = ""` at dir `$HOME/.local/share/namada/shielded-expedition.88f17d1d14/config.toml` and edit to your Validator IP + port  
 **Make sure your firewall open only for KMS server IP to allow connect to port 26658 (or any custom port u set)**
 
 Example : `priv_validator_laddr = "tcp://0.0.0.0:26658"`
@@ -137,11 +137,11 @@ If u have more than one IP u have to set right IP (the same as in tmkms config f
 Good logs example :  
 `INFO tmkms::session: [shielded-expedition.b40d8e9055@tcp://<IP>:26658] connected to validator successfully`
 
-`WARN tmkms::session: [shielded-expedition.b40d8e9055@tcp://<IP>:26658]: unverified validator peer ID! (ad1fc4b45ee2340bb8148d7247bf82ea780y213q)`  
-`INFO tmkms::session: [shielded-expedition.b40d8e9055@tcp://<IP>:26658] signed PreCommit:<nil> at h/r/s 8825119/0/2 (0 ms)`  
-`INFO tmkms::session: [shielded-expedition.b40d8e9055@tcp://<IP>:26658] signed PreVote:144665D1CE at h/r/s 8825120/0/1 (0 ms)`  
-`INFO tmkms::session: [shielded-expedition.b40d8e9055@tcp://<IP>:26658] signed PreCommit:144665D1CE at h/r/s 8825120/0/2 (0 ms)`  
-`INFO tmkms::session: [shielded-expedition.b40d8e9055@tcp://<IP>:26658] signed PreVote:13BF759486 at h/r/s 8825121/0/1 (0 ms)`  
+`WARN tmkms::session: [shielded-expedition.88f17d1d14@tcp://<IP>:26658]: unverified validator peer ID! (ad1fc4b45ee2340bb8148d7247bf82ea780y213q)`  
+`INFO tmkms::session: [shielded-expedition.88f17d1d14@tcp://<IP>:26658] signed PreCommit:<nil> at h/r/s 8825119/0/2 (0 ms)`  
+`INFO tmkms::session: [shielded-expedition.88f17d1d14@tcp://<IP>:26658] signed PreVote:144665D1CE at h/r/s 8825120/0/1 (0 ms)`  
+`INFO tmkms::session: [shielded-expedition.88f17d1d14@tcp://<IP>:26658] signed PreCommit:144665D1CE at h/r/s 8825120/0/2 (0 ms)`  
+`INFO tmkms::session: [shielded-expedition.88f17d1d14@tcp://<IP>:26658] signed PreVote:13BF759486 at h/r/s 8825121/0/1 (0 ms)`  
 
 
 ### Backup in safe place priv_validator_key.json and delete it from Validator node. Now U signing from KMS server!
