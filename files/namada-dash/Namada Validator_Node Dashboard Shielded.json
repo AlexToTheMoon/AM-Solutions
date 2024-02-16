@@ -134,7 +134,7 @@
             "uid": "${DS}"
           },
           "editorMode": "code",
-          "expr": "rate(namada_tm_consensus_validator_missed_blocks{chain_id=\"shielded-expedition.b40d8e9055\"}[5m])",
+          "expr": "rate(namada_tm_consensus_validator_missed_blocks{chain_id=\"shielded-expedition.88f17d1d14\"}[5m])",
           "legendFormat": "5 min",
           "range": true,
           "refId": "A"
@@ -145,7 +145,7 @@
             "uid": "${DS}"
           },
           "editorMode": "code",
-          "expr": "rate(namada_tm_consensus_validator_missed_blocks{chain_id=\"public-testnet-15.0dacadb8d663\"}[6h])",
+          "expr": "rate(namada_tm_consensus_validator_missed_blocks{chain_id=\"public-testnet-15.88f17d1d14\"}[6h])",
           "hide": false,
           "legendFormat": "6 hrs",
           "range": true,
@@ -214,7 +214,7 @@
             "uid": "${DS}"
           },
           "editorMode": "code",
-          "expr": "namada_tm_consensus_validator_missed_blocks{chain_id=\"shielded-expedition.b40d8e9055\"}",
+          "expr": "namada_tm_consensus_validator_missed_blocks{chain_id=\"shielded-expedition.88f17d1d14\"}",
           "legendFormat": "__auto",
           "range": true,
           "refId": "A"
@@ -307,7 +307,7 @@
             "uid": "${DS}"
           },
           "editorMode": "code",
-          "expr": "(namada_tm_consensus_validator_power{chain_id=\"shielded-expedition.b40d8e9055\"})/1000000",
+          "expr": "(namada_tm_consensus_validator_power{chain_id=\"shielded-expedition.88f17d1d14\"})/1000000",
           "legendFormat": "{{validator_address}}",
           "range": true,
           "refId": "A"
@@ -375,7 +375,7 @@
             "uid": "${DS}"
           },
           "editorMode": "code",
-          "expr": "(namada_tm_consensus_validator_power{chain_id=\"shielded-expedition.b40d8e9055\"})/1000000",
+          "expr": "(namada_tm_consensus_validator_power{chain_id=\"shielded-expedition.88f17d1d14\"})/1000000",
           "legendFormat": "__auto",
           "range": true,
           "refId": "A"
@@ -444,7 +444,7 @@
             "uid": "${DS}"
           },
           "editorMode": "code",
-          "expr": "namada_tm_consensus_height{chain_id=\"shielded-expedition.b40d8e9055\"}",
+          "expr": "namada_tm_consensus_height{chain_id=\"shielded-expedition.88f17d1d14\"}",
           "legendFormat": "{{chain_id}}",
           "range": true,
           "refId": "A"
@@ -541,7 +541,7 @@
             "uid": "${DS}"
           },
           "editorMode": "code",
-          "expr": "namada_tm_consensus_height{chain_id=\"shielded-expedition.b40d8e9055\"}",
+          "expr": "namada_tm_consensus_height{chain_id=\"shielded-expedition.88f17d1d14\"}",
           "legendFormat": "{{chain_id}}",
           "range": true,
           "refId": "A"
@@ -613,7 +613,7 @@
             "uid": "${DS}"
           },
           "editorMode": "code",
-          "expr": "namada_tm_consensus_validators{chain_id=\"shielded-expedition.b40d8e9055\"}",
+          "expr": "namada_tm_consensus_validators{chain_id=\"shielded-expedition.88f17d1d14\"}",
           "legendFormat": "__auto",
           "range": true,
           "refId": "A"
@@ -710,7 +710,7 @@
             "uid": "${DS}"
           },
           "editorMode": "code",
-          "expr": "namada_tm_p2p_peers{chain_id=\"shielded-expedition.b40d8e9055\"}",
+          "expr": "namada_tm_p2p_peers{chain_id=\"shielded-expedition.88f17d1d14\"}",
           "legendFormat": "Peers Tendency",
           "range": true,
           "refId": "A"
@@ -781,7 +781,7 @@
             "uid": "${DS}"
           },
           "editorMode": "code",
-          "expr": "namada_tm_p2p_peers{chain_id=\"shielded-expedition.b40d8e9055\"}",
+          "expr": "namada_tm_p2p_peers{chain_id=\"shielded-expedition.88f17d1d14\"}",
           "legendFormat": "__auto",
           "range": true,
           "refId": "A"
@@ -878,7 +878,7 @@
             "uid": "${DS}"
           },
           "editorMode": "code",
-          "expr": "(namada_tm_consensus_validators_power{chain_id=\"shielded-expedition.b40d8e9055\"})/1000000",
+          "expr": "(namada_tm_consensus_validators_power{chain_id=\"shielded-expedition.88f17d1d14\"})/1000000",
           "legendFormat": "Voting Power Total",
           "range": true,
           "refId": "A"
@@ -947,7 +947,7 @@
             "uid": "${DS}"
           },
           "editorMode": "code",
-          "expr": "namada_tm_consensus_total_txs{chain_id=\"shielded-expedition.b40d8e9055\"}",
+          "expr": "namada_tm_consensus_total_txs{chain_id=\"shielded-expedition.88f17d1d14\"}",
           "legendFormat": "{{chain_id}}",
           "range": true,
           "refId": "A"
@@ -1044,7 +1044,7 @@
             "uid": "${DS}"
           },
           "editorMode": "code",
-          "expr": "namada_tm_consensus_num_txs{chain_id=\"shielded-expedition.b40d8e9055\"}",
+          "expr": "namada_tm_consensus_num_txs{chain_id=\"shielded-expedition.88f17d1d14\"}",
           "legendFormat": "Transactions",
           "range": true,
           "refId": "A"
@@ -1113,7 +1113,7 @@
             "uid": "${DS}"
           },
           "editorMode": "code",
-          "expr": "namada_tm_mempool_recheck_times{chain_id=\"shielded-expedition.b40d8e9055\"} ",
+          "expr": "namada_tm_mempool_recheck_times{chain_id=\"shielded-expedition.88f17d1d14\"} ",
           "legendFormat": "{{chain_id}}",
           "range": true,
           "refId": "A"
@@ -1179,7 +1179,7 @@
             "uid": "${DS}"
           },
           "editorMode": "code",
-          "expr": "namada_tm_mempool_size{chain_id=\"shielded-expedition.b40d8e9055\"}",
+          "expr": "namada_tm_mempool_size{chain_id=\"shielded-expedition.88f17d1d14\"}",
           "legendFormat": "Uncommitted transactions",
           "range": true,
           "refId": "A"
@@ -1273,7 +1273,7 @@
             "uid": "${DS}"
           },
           "editorMode": "code",
-          "expr": "namada_tm_consensus_block_size_bytes{chain_id=\"shielded-expedition.b40d8e9055\"}",
+          "expr": "namada_tm_consensus_block_size_bytes{chain_id=\"shielded-expedition.88f17d1d14\"}",
           "legendFormat": "Block Size (Bytes)",
           "range": true,
           "refId": "A"
@@ -1371,7 +1371,7 @@
             "uid": "${DS}"
           },
           "editorMode": "code",
-          "expr": "sum(rate(namada_tm_p2p_peer_send_bytes_total{chain_id=\"shielded-expedition.b40d8e9055\"}[5m])) / 1000",
+          "expr": "sum(rate(namada_tm_p2p_peer_send_bytes_total{chain_id=\"shielded-expedition.88f17d1d14\"}[5m])) / 1000",
           "legendFormat": "Outbound traffic",
           "range": true,
           "refId": "A"
@@ -1469,7 +1469,7 @@
             "uid": "${DS}"
           },
           "editorMode": "code",
-          "expr": "sum(rate(namada_tm_p2p_peer_receive_bytes_total{chain_id=\"shielded-expedition.b40d8e9055\"}[5m])) / 1000",
+          "expr": "sum(rate(namada_tm_p2p_peer_receive_bytes_total{chain_id=\"shielded-expedition.88f17d1d14\"}[5m])) / 1000",
           "legendFormat": "Inbound  traffic",
           "range": true,
           "refId": "A"
