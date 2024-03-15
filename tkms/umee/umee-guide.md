@@ -72,17 +72,17 @@ rm -rf ~/tmkms/umee/tmkms.toml
 tee ~/tmkms/umee/tmkms.toml << EOF
 #Tendermint KMS configuration file
 [[chain]]
-id = "canon-2"
+id = "umee-1"
 key_format = { type = "bech32", account_key_prefix = "umeepub", consensus_key_prefix = "umeevalconspub" }
-state_file = "$HOME/tmkms/umee/state/canon-2-priv_validator_state.json"
+state_file = "$HOME/tmkms/umee/state/umee-1-priv_validator_state.json"
 #Software-based Signer Configuration
 [[providers.softsign]]
-chain_ids = ["canon-2"]
+chain_ids = ["umee-1"]
 key_type = "consensus"
 path = "$HOME/tmkms/umee/secrets/umee-consensus.key"
 #Validator Configuration
 [[validator]]
-chain_id = "canon-2"
+chain_id = "umee-1"
 addr = "tcp://10.10.10.12:26658" #Set here validator IP and port
 secret_key = "$HOME/tmkms/umee/secrets/kms-identity.key"
 protocol_version = "v0.34"
@@ -122,7 +122,7 @@ Sample of normal logs at present stage
 
 `INFO tmkms::keyring: [keyring:softsign] added consensus Ed25519 key: umeevalconspub1zcjduepqpg8kmjv...`  
 `2022-12-07T09:04:15.959017Z  INFO tmkms::connection::tcp: KMS node ID: 8090d2661357dadb5e8888f234ecee41603f1873`  
-`2022-12-07T09:04:15.962726Z ERROR tmkms::client: [canon-2@tcp://10.10.10.12:26658] I/O error: Connection refused (os error 111)`
+`2022-12-07T09:04:15.962726Z ERROR tmkms::client: [umee-1@tcp://10.10.10.12:26658] I/O error: Connection refused (os error 111)`
 
 #### LAST STEPS. Activate remote signing from Umee node side
 
@@ -135,10 +135,10 @@ Example : `priv_validator_laddr = "tcp://10.10.10.12:26658"`
 
 Good logs example :  
 
-`INFO tmkms::session: [canon-2@tcp://173.212.215.104:26658] connected to validator successfully`  
-`WARN tmkms::session: [canon-2@tcp://173.212.215.104:26658]: unverified validator peer ID! (458562cf0d3e17f0d7755ccafdcd977ca93e0304)`  
-`INFO tmkms::session: [canon-2@tcp://173.212.215.104:26658] signed PreVote:266AB0AF95 at h/r/s 954948/0/1 (0 ms)`  
-`INFO tmkms::session: [canon-2@tcp://173.212.215.104:26658] signed PreCommit:266AB0AF95 at h/r/s 954948/0/2 (0 ms)` 
+`INFO tmkms::session: [umee-1@tcp://173.212.215.104:26658] connected to validator successfully`  
+`WARN tmkms::session: [umee-1@tcp://173.212.215.104:26658]: unverified validator peer ID! (458562cf0d3e17f0d7755ccafdcd977ca93e0304)`  
+`INFO tmkms::session: [umee-1@tcp://173.212.215.104:26658] signed PreVote:266AB0AF95 at h/r/s 954948/0/1 (0 ms)`  
+`INFO tmkms::session: [umee-1@tcp://173.212.215.104:26658] signed PreCommit:266AB0AF95 at h/r/s 954948/0/2 (0 ms)` 
 
 
 ### Backup in safe place priv_validator_key.json and remove it from Validator node.
