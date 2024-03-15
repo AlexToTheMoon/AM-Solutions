@@ -31,7 +31,7 @@
 
 [Validator`s Health GRAFANA Dashboard](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/evmos-dash/README.md)
 * * *
-**UMEE**  
+**UX / EX UMEE**  
 
 [Umee Services | https://www.theamsolutions.info/umee-services ](https://www.theamsolutions.info/umee-services)
 
