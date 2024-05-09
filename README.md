@@ -98,10 +98,8 @@
 * * *
  ## Testnet`s
  * * * 
- **SWISSTRONIK**  
-
 [Swisstronik Services  | https://www.theamsolutions.info/swisstronik](https://www.theamsolutions.info/swisstronik)  
-
+* * * 
 [Celestia TMKMS remote signer guide](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/tkms/celestia/README.md)  
 * * *
 [Namada Services / Guides](https://www.theamsolutions.info/namada)  
