@@ -90,13 +90,14 @@
 [Rebus | https://www.theamsolutions.info/stride ](https://www.theamsolutions.info/rebus)
 
 [Telegram ALARM / notification BOT for Rebus](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/rebus/manual.md)
-* * *
-**MEME**  
 
-[Meme | https://www.theamsolutions.info/meme-services ](https://www.theamsolutions.info/meme-services)
-* * * 
 * * *
  ## Testnet`s
+ * * * 
+[Penumbra Services   | https://www.theamsolutions.info/penumbra](https://www.theamsolutions.info/penumbra)  
+
+[Validator's Health GRAFANA Dashboard](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/penumbra-dash/README.md) 
+ 
  * * * 
 [Swisstronik Services  | https://www.theamsolutions.info/swisstronik](https://www.theamsolutions.info/swisstronik)  
 * * * 
