@@ -17,7 +17,7 @@ curl --proto '=https' --tlsv1.2 -LsSf https://github.com/penumbra-zone/penumbra/
 ```
 
 ```
-pd testnet join --moniker MY_MONIKER https://rpc.test-penumbra.theamsolutions.info
+pd network  join --moniker MY_MONIKER https://rpc.test-penumbra.theamsolutions.info
 ```
 
 ```
