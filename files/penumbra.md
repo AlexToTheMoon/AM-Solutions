@@ -62,7 +62,7 @@ sudo systemctl enable penumbra-cometbft.service
 cd $HOME
 snap=$(curl -s https://snap-penumbra.theamsolutions.info | egrep -o ">penumbra-snap*.*tar" | tr -d ">")
 wget -P $HOME https://snap-penumbra.theamsolutions.info/${snap}
-workd="$HOME/.penumbra/testnet_data/node0"
+workd="$HOME/.penumbra/network_data/node0"
 rm -rf ${workd}/cometbft/data/ ${workd}/pd/rocksdb/
 tar xf ~/penumbra-snap*.*tar -C ${workd} && rm ~/penumbra-snap*.*tar
 ```
