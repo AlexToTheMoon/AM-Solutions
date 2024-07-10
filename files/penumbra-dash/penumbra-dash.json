@@ -177,7 +177,7 @@
             "uid": "${DS_DS_PROM}"
           },
           "editorMode": "code",
-          "expr": "rate(cometbft_consensus_validator_missed_blocks{chain_id=\"penumbra-testnet-deimos-8\"}[5m])",
+          "expr": "rate(cometbft_consensus_validator_missed_blocks{chain_id=\"penumbra-1\"}[5m])",
           "legendFormat": "5 min",
           "range": true,
           "refId": "A"
@@ -188,7 +188,7 @@
             "uid": "${DS_DS_PROM}"
           },
           "editorMode": "code",
-          "expr": "rate(cometbft_consensus_validator_missed_blocks{chain_id=\"penumbra-testnet-deimos-8\"}[6h])",
+          "expr": "rate(cometbft_consensus_validator_missed_blocks{chain_id=\"penumbra-1\"}[6h])",
           "hide": false,
           "legendFormat": "6 hrs",
           "range": true,
@@ -256,7 +256,7 @@
             "uid": "${DS_DS_PROM}"
           },
           "editorMode": "code",
-          "expr": "cometbft_consensus_validator_missed_blocks{chain_id=\"penumbra-testnet-deimos-8\"}",
+          "expr": "cometbft_consensus_validator_missed_blocks{chain_id=\"penumbra-1\"}",
           "legendFormat": "__auto",
           "range": true,
           "refId": "A"
@@ -351,7 +351,7 @@
             "uid": "${DS_DS_PROM}"
           },
           "editorMode": "code",
-          "expr": "cometbft_consensus_validator_power{chain_id=\"penumbra-testnet-deimos-8\"} / 1000000",
+          "expr": "cometbft_consensus_validator_power{chain_id=\"penumbra-1\"} / 1000000",
           "legendFormat": "{{validator_address}}",
           "range": true,
           "refId": "A"
@@ -420,7 +420,7 @@
             "uid": "${DS_DS_PROM}"
           },
           "editorMode": "code",
-          "expr": "cometbft_consensus_validator_power{chain_id=\"penumbra-testnet-deimos-8\"} / 1000000",
+          "expr": "cometbft_consensus_validator_power{chain_id=\"penumbra-1\"} / 1000000",
           "legendFormat": "__auto",
           "range": true,
           "refId": "A"
@@ -489,7 +489,7 @@
             "uid": "${DS_DS_PROM}"
           },
           "editorMode": "code",
-          "expr": "cometbft_consensus_height{chain_id=\"penumbra-testnet-deimos-8\"}",
+          "expr": "cometbft_consensus_height{chain_id=\"penumbra-1\"}",
           "legendFormat": "{{chain_id}}",
           "range": true,
           "refId": "A"
@@ -590,7 +590,7 @@
             "uid": "${DS_DS_PROM}"
           },
           "editorMode": "code",
-          "expr": "cometbft_consensus_height{chain_id=\"penumbra-testnet-deimos-8\"}",
+          "expr": "cometbft_consensus_height{chain_id=\"penumbra-1\"}",
           "legendFormat": "{{chain_id}}",
           "range": true,
           "refId": "A"
@@ -662,7 +662,7 @@
             "uid": "${DS_DS_PROM}"
           },
           "editorMode": "code",
-          "expr": "cometbft_consensus_validators{chain_id=\"penumbra-testnet-deimos-8\"}",
+          "expr": "cometbft_consensus_validators{chain_id=\"penumbra-1\"}",
           "legendFormat": "__auto",
           "range": true,
           "refId": "A"
@@ -759,7 +759,7 @@
             "uid": "${DS_DS_PROM}"
           },
           "editorMode": "code",
-          "expr": "cometbft_p2p_peers{chain_id=\"penumbra-testnet-deimos-8\"}",
+          "expr": "cometbft_p2p_peers{chain_id=\"penumbra-1\"}",
           "legendFormat": "Peers Tendency",
           "range": true,
           "refId": "A"
@@ -826,7 +826,7 @@
             "uid": "${DS_DS_PROM}"
           },
           "editorMode": "code",
-          "expr": "cometbft_p2p_peers{chain_id=\"penumbra-testnet-deimos-8\"}",
+          "expr": "cometbft_p2p_peers{chain_id=\"penumbra-1\"}",
           "legendFormat": "__auto",
           "range": true,
           "refId": "A"
@@ -923,7 +923,7 @@
             "uid": "${DS_DS_PROM}"
           },
           "editorMode": "code",
-          "expr": "cometbft_consensus_validators_power{chain_id=\"penumbra-testnet-deimos-8\"} / 1000000",
+          "expr": "cometbft_consensus_validators_power{chain_id=\"penumbra-1\"} / 1000000",
           "legendFormat": "Voting Power Total",
           "range": true,
           "refId": "A"
@@ -992,7 +992,7 @@
             "uid": "${DS_DS_PROM}"
           },
           "editorMode": "code",
-          "expr": "cometbft_consensus_total_txs{chain_id=\"penumbra-testnet-deimos-8\"}",
+          "expr": "cometbft_consensus_total_txs{chain_id=\"penumbra-1\"}",
           "legendFormat": "{{chain_id}}",
           "range": true,
           "refId": "A"
@@ -1089,7 +1089,7 @@
             "uid": "${DS_DS_PROM}"
           },
           "editorMode": "code",
-          "expr": "cometbft_consensus_num_txs{chain_id=\"penumbra-testnet-deimos-8\"}",
+          "expr": "cometbft_consensus_num_txs{chain_id=\"penumbra-1\"}",
           "legendFormat": "Transactions",
           "range": true,
           "refId": "A"
@@ -1158,7 +1158,7 @@
             "uid": "${DS_DS_PROM}"
           },
           "editorMode": "code",
-          "expr": "cometbft_mempool_recheck_times{chain_id=\"penumbra-testnet-deimos-8\"}",
+          "expr": "cometbft_mempool_recheck_times{chain_id=\"penumbra-1\"}",
           "legendFormat": "{{chain_id}}",
           "range": true,
           "refId": "A"
@@ -1322,7 +1322,7 @@
             "uid": "${DS_DS_PROM}"
           },
           "editorMode": "code",
-          "expr": "cometbft_consensus_block_size_bytes{chain_id=\"penumbra-testnet-deimos-8\"} ",
+          "expr": "cometbft_consensus_block_size_bytes{chain_id=\"penumbra-1\"} ",
           "legendFormat": "Block Size (Bytes)",
           "range": true,
           "refId": "A"
@@ -1420,7 +1420,7 @@
             "uid": "${DS_DS_PROM}"
           },
           "editorMode": "code",
-          "expr": "sum(rate(cometbft_p2p_peer_send_bytes_total{chain_id=\"penumbra-testnet-deimos-8\"}[5m])) / 1000",
+          "expr": "sum(rate(cometbft_p2p_peer_send_bytes_total{chain_id=\"penumbra-1\"}[5m])) / 1000",
           "legendFormat": "Outbound traffic",
           "range": true,
           "refId": "A"
@@ -1518,7 +1518,7 @@
             "uid": "${DS_DS_PROM}"
           },
           "editorMode": "code",
-          "expr": "sum(rate(cometbft_p2p_peer_receive_bytes_total{chain_id=\"penumbra-testnet-deimos-8\"}[5m])) / 1000",
+          "expr": "sum(rate(cometbft_p2p_peer_receive_bytes_total{chain_id=\"penumbra-1\"}[5m])) / 1000",
           "legendFormat": "Inbound  traffic",
           "range": true,
           "refId": "A"
@@ -1558,13 +1558,13 @@
     ]
   },
   "time": {
-    "from": "now-1h",
+    "from": "now-3h",
     "to": "now"
   },
   "timepicker": {},
   "timezone": "",
   "title": "Penumbra",
   "uid": "ad486dd4-e107-466d-889d-f1590a172c9f",
-  "version": 8,
+  "version": 9,
   "weekStart": ""
 }
