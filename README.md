@@ -1,5 +1,15 @@
 ![logo](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/github.png)
 * * *
+
+**PENUMBRA**  
+
+[Penumbra Services | https://www.theamsolutions.info/penumbra](https://www.theamsolutions.info/penumbra)  
+
+[Node Installation guide](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/penumbra.md)
+
+[Validator's Health GRAFANA Dashboard](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/penumbra-dash/README.md)
+
+* * *
 **CELESTIA**  
 
 [Celestia Services | https://www.theamsolutions.info/celestia](https://www.theamsolutions.info/celestia)  
