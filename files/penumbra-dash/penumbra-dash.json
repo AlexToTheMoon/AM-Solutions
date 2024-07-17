@@ -1224,7 +1224,7 @@
             "uid": "${DS_DS_PROM}"
           },
           "editorMode": "code",
-          "expr": "cometbft_mempool_size{chain_id=\"penumbra-testnet-deimos-8\"}",
+          "expr": "cometbft_mempool_size{chain_id=\"penumbra-1\"}",
           "legendFormat": "Uncommitted transactions",
           "range": true,
           "refId": "A"
@@ -1565,6 +1565,6 @@
   "timezone": "",
   "title": "Penumbra",
   "uid": "ad486dd4-e107-466d-889d-f1590a172c9f",
-  "version": 9,
+  "version": 10,
   "weekStart": ""
 }
