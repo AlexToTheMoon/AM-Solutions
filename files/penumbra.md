@@ -1,5 +1,5 @@
 ```
-curl -sSfL -O https://github.com/penumbra-zone/penumbra/releases/download/v0.79.0/pd-x86_64-unknown-linux-gnu.tar.gz
+curl -sSfL -O https://github.com/penumbra-zone/penumbra/releases/download/v0.81.0/pd-x86_64-unknown-linux-gnu.tar.gz
 tar -xf pd-x86_64-unknown-linux-gnu.tar.gz
 sudo mv pd-x86_64-unknown-linux-gnu/pd /usr/local/bin/
 ```
@@ -13,7 +13,7 @@ sudo mv build/cometbft /usr/local/bin/
 ```
 
 ```
-curl --proto '=https' --tlsv1.2 -LsSf https://github.com/penumbra-zone/penumbra/releases/download/v0.79.0/pcli-installer.sh | sh
+curl --proto '=https' --tlsv1.2 -LsSf https://github.com/penumbra-zone/penumbra/releases/download/v0.81.0/pcli-installer.sh | sh
 ```
 
 ```
