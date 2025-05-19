@@ -103,6 +103,11 @@
 
 * * *
  ## Testnet`s
+ * * *
+**AZTEC**  
+
+[Validator/Node Health metrics setup + GRAFANA Dashboard]() 
+ 
  * * * 
 [Penumbra Services   | https://www.theamsolutions.info/penumbra](https://www.theamsolutions.info/penumbra)  
 
