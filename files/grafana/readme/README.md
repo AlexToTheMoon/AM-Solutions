@@ -1,6 +1,6 @@
 ## Grafana + Prometheus instllation guide.
 
-*If any commnets or issues U can contact me at* **Discord** handle - **amsolutions**
+*If any commnets or issues at* **Discord** handle - **amsolutions**
 
 ### Install Prometheus
 ```bash
