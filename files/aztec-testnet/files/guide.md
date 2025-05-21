@@ -1,15 +1,39 @@
 ## OTLP >> Prometheus >> Grafana + TG Alarm
 
 *Commnets or issues please at* **Discord** name **AlexeyM** handle - **amsolutions**  
-
-**Docker must be installed before using this guide**
-
 * * *
+
+### Install Docker (in not installed)  
+Update packages and install dependencies  
+```
+sudo apt update
+sudo apt install -y ca-certificates curl gnupg lsb-release
+```
+Add Docker GPG Key  
+```
+sudo mkdir -p /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | \
+  sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+```
+Add Docker repository  
+```
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] \
+  https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+```
+Install Docker  
+```
+sudo apt update
+sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
+
 
 ### Launch OTLP
 ```bash
-docker run --rm -p  4318:4318 -p 8889:8889  -v "$(pwd)/otel-config/otel-collector-config.yaml":/etc/otelcol/config.yaml -d otel/opentelemetry-collector:latest
+docker run --rm -p  4318:4318 -p 8889:8889  -v "$HOME/otel-config/otel-collector-config.yaml":/etc/otelcol/config.yaml -d otel/opentelemetry-collector:latest
 ```
+Open file 
 
 ### Install Prometheus
 ```bash
