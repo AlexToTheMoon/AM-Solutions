@@ -6,4 +6,4 @@ Download dashboard **[HERE]()**
 Prometheus and Grafana installation guide **[HERE]()**
 * * *
 
-![](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/aztec-testnet/files/aztec-dash.png)
+![](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/aztec-testnet/files/dashv21-05.png)
