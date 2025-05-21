@@ -1,4 +1,4 @@
-## Grafana + Prometheus instllation guide.
+## OTLP >> Prometheus >> Grafana + TG Alarm
 
 *Commnets or issues please at* **Discord** name **AlexeyM** handle - **amsolutions**
 
