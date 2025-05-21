@@ -1,9 +1,9 @@
 ## OTLP >> Prometheus >> Grafana + TG Alarm
 
-*Commnets or issues please at* **Discord** name **AlexeyM** handle - **amsolutions**  
+*Commnets or issues please at* **Discord** name **AlexeyM**,  ID **amsolutions**  
 * * *
 
-### Install Docker (in not installed)  
+### Install Docker (if not installed)  
 Update packages and install dependencies  
 ```
 sudo apt update
@@ -27,9 +27,22 @@ Install Docker
 sudo apt update
 sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
+Check installation if installaton is succesfull  
+```
+sudo docker version
+sudo docker run hello-world
+```
+Add user to Docker group, to run without "sudo"  
+```
+sudo usermod -aG docker $USER
+newgrp docker  # or restart session
+```
+
+
 
 
 ### Launch OTLP
+
 ```bash
 docker run --rm -p  4318:4318 -p 8889:8889  -v "$HOME/otel-config/otel-collector-config.yaml":/etc/otelcol/config.yaml -d otel/opentelemetry-collector:latest
 ```
