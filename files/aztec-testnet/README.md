@@ -1,4 +1,4 @@
-## "AZTEC Network" Validator / Sequencer Node metrics + Grafaa dashboard
+## "AZTEC Network" Validator / Sequencer Node metrics + Grafana dashboard + TG Alarm
 * * *
 
 Download dashboard **[HERE]()** 
