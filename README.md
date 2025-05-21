@@ -106,7 +106,7 @@
  * * *
 **AZTEC**  
 
-[Validator/Node Health metrics setup + GRAFANA Dashboard]() 
+[Validator/Node Health metrics setup + GRAFANA Dashboard](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/aztec-testnet/README.md) 
  
  * * * 
 [Penumbra Services   | https://www.theamsolutions.info/penumbra](https://www.theamsolutions.info/penumbra)  
