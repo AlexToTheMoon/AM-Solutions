@@ -38,15 +38,40 @@ sudo usermod -aG docker $USER
 newgrp docker  # or restart session
 ```
 
+### Launch OTLP 
+Create config file
+```
+mkdir $HOME otlp-metrics
+sudo tee $HOME/otlp-metrics/config.yaml << EOF
+receivers:
+  otlp:
+    protocols:
+      http:
+        endpoint: "0.0.0.0:4318" 
 
+exporters:
+  prometheus:
+    endpoint: "0.0.0.0:8889" 
 
+service:
+  pipelines:
+    metrics:
+      receivers: [otlp]
+      exporters: [prometheus]
+EOF
+```
 
-### Launch OTLP
+Launch OTLP container
 
 ```bash
-docker run --rm -p  4318:4318 -p 8889:8889  -v "$HOME/otel-config/otel-collector-config.yaml":/etc/otelcol/config.yaml -d otel/opentelemetry-collector:latest
+docker run --rm --name ams-hotel -p  4318:4318 -p 8889:8889  -v "$HOME/otlp-metrics/config.yaml":/etc/otelcol/config.yaml -d otel/opentelemetry-collector:latest
 ```
-Open file 
+Check logs  
+```
+docker logs ams-hotel
+```
+Good logs example (last line)
+> Everything is ready. Begin running and processing data.
 
 ### Install Prometheus
 ```bash
