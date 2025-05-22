@@ -73,6 +73,22 @@ docker logs ams-hotel
 Good logs example (last line)
 > Everything is ready. Begin running and processing data.
 
+
+### Setup metrics flow from Sequencer > OTLP
+
+Add metrics flag to the Sequencer node launch service
+Chnage <OTLP_SERVER_IP> to IP where OTLP located
+
+> For Docker launch
+
+```--tel.metricsCollectorUrl=http://<OTLP_SERVER_IP>:4318/v1/metrics```
+
+> For Docker Compose enviromnent
+
+```OTEL_EXPORTER_OTLP_METRICS_ENDPOINT: "http://<OTLP_SERVER_IP>:4318/v1/metrics"```
+
+Restart you Sequencer node and check metrics at http://<OTLP_SERVER_IP>:8889/metrics
+
 ### Install Prometheus
 ```bash
 cd $HOME
