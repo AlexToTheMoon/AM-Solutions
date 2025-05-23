@@ -3,7 +3,7 @@
 
 Installation guide **[HERE](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/aztec-testnet/guide/README.md)**
 
-Download dashboard **[HERE]()** 
+AZTEC dashboard beta **[HERE](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/aztec-testnet/guide/docs/AZTEC-beta.json)** 
 
 * * *
 
