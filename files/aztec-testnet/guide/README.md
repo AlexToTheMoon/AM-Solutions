@@ -225,6 +225,31 @@ There is two options to add dashboards :
 
 ![bot](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/rebus/png/newbot.png) 
 
+#### Create group and join bot
+ - Create new group in Telegram
+ - Find created bot by @USERNAME
+ - Add bot to the group  
+
+![bot-gr1](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/rebus/png/add-group-bot.png)
+
+#### Find group ID
+
+ - Find bot named **@JsonViewBot** and add to your group
+ - Bot should join group, show your group ID and leave the group
+ - Save Grop ID
+
+![gr-ad](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/rebus/png/add-group-json.png)  
+
+
+![id](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/rebus/png/group-id.png)
+
+
+
+
+
+
+
+
 <p align="center">
     GOOD LUCK
 </p>
