@@ -106,7 +106,7 @@ rm prometheus.tar.gz && \
 mv prometheus-* prometheus && \
 sudo cp prometheus/prometheus /usr/local/bin/
 ```
-### Create Service file
+#### Create Service file
 
 ```bash
 sudo tee /etc/systemd/system/prometheusd.service << EOF
@@ -127,7 +127,7 @@ EOF
 ```
 > In default Prometheus listening on port 9090, in it conflict with any other ports at your server, U can easily change it by adding flag --web.listen-address="0.0.0.0:<YOUR_PORT>" to prometheus service faile
 
-## Launch Prometheus and check status
+#### Launch Prometheus and check status
 
 ```bash
 systemctl daemon-reload
@@ -136,7 +136,6 @@ sudo systemctl restart  prometheusd.service
 sudo systemctl status prometheusd.service
 sudo journalctl -u prometheusd.service -fn 50 -o cat
 ```
-"active (running)" means all good so far
 ![prom-status](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/grafana/prom-status.png)
 
 ### Import OTLP to the Prometheus config
@@ -166,10 +165,11 @@ EOF
 sudo systemctl restart  prometheusd.service
 sudo systemctl status prometheusd.service
 ```
-## Check Prometheus importing OTLP metrics 
-Go http://<PROMETHEUS SERVR IP>:9090/targets 
+#### Check Prometheus importing OTLP metrics 
+Go  > `http://<PROMETHEUS SEVER IP>:9090/targets`  
 
-
+Example of successed installation
+![](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/aztec-testnet/guide/docs/prom-targets.png)  
 
 ### Install Grafana
 ```bash
@@ -182,7 +182,7 @@ sudo apt-get install grafana-enterprise
 ```
 > Grafana service file will be created at dir : /lib/systemd/system/grafana-server.service (DONT EDIT WITH NO REASON)
 
-### Run Grafana service, check status
+#### Run Grafana service, check status
 
 ```bash
 sudo systemctl daemon-reload
@@ -191,14 +191,15 @@ sudo systemctl start grafana-server
 sudo systemctl status grafana-server
 ```  
 
-#### Now we can connect to our Grafana web page. For that U have to spell in your browser Ur public IP address where U installed Grafana along with port 3000 > http://IP:3000  
+#### Grafana Login in
 
-First time Your's username and password will be : admin
-After U spell, system will ask to set different password, so, just go for it and save/remeber it.
+Open Grafana page via `http://<SERVER_IP>:3000`
+
+First login credentials 
+ - username : admin
+ - password : admin
 
 ![graf-login](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/grafana/graf-login.png)  
-
-
 
 ### Add metrics provider to Grafana (in our case Prometheus)  
 
