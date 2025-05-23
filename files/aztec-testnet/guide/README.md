@@ -74,7 +74,7 @@ Good logs example (last line)
 > Everything is ready. Begin running and processing data.
 
 
-### Setup metrics flow from Sequencer > OTLP
+### Setup metrics flow from Sequencer to OTLP importer
 
 Add metrics flag to the Sequencer node  
 Change <OTLP_SERVER_IP> to IP address where is OTLP service operating
