@@ -172,25 +172,9 @@ Example of successed installation
 ![](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/aztec-testnet/guide/docs/prom-targets.png)  
 
 ### Install Grafana
-```bash
-sudo apt-get install -y apt-transport-https
-sudo apt-get install -y software-properties-common wget
-sudo wget -q -O /usr/share/keyrings/grafana.key https://apt.grafana.com/gpg.key
-echo "deb [signed-by=/usr/share/keyrings/grafana.key] https://apt.grafana.com beta main" | sudo tee -a /etc/apt/sources.list.d/grafana.list
-sudo apt-get update
-sudo apt-get install grafana-enterprise
 ```
-> Grafana service file will be created at dir : /lib/systemd/system/grafana-server.service (DONT EDIT WITH NO REASON)
-
-#### Run Grafana service, check status
-
-```bash
-sudo systemctl daemon-reload
-sudo systemctl enable grafana-servers
-sudo systemctl start grafana-server
-sudo systemctl status grafana-server
-```  
-
+docker run -d -p 3000:3000 --name=grafana grafana/grafana
+```
 #### Grafana Login in
 
 Open Grafana page via `http://<SERVER_IP>:3000`
