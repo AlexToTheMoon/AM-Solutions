@@ -252,7 +252,14 @@ On the sidebar go `Alerting → Contact points → Create contact point`
  - Set Group ID to Chat ID from previous steps
  - Save Contact point  
 
-![](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/aztec-testnet/guide/docs/tg-contact-point.png)
+![](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/aztec-testnet/guide/docs/tg-contact-point.png)  
+
+#### Add Notification/Alarm rule
+
+At Dashboard find block with name "AVG NR. BLOCKS IN 5 MIN"  
+ - Press to Alert  → New alert rule
+
+![](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/aztec-testnet/guide/docs/5min-dash.png)
 
 
 
