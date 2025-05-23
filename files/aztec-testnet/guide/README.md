@@ -217,6 +217,14 @@ There is two options to add dashboards :
 
 > After Load button pressing, dashboard will appear automatically
 
+### Create Telegram Node health notification/alarm service
+ - Find TG bot by handle **@BotFather**
+ - Execute /start, than /newbot
+ - Enter bot name, make sure it ends with **bot**
+ - **Copy and save HTTP API token**
+
+![bot](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/rebus/png/newbot.png) 
+
 <p align="center">
     GOOD LUCK
 </p>
