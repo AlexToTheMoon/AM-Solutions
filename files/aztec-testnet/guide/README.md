@@ -275,12 +275,13 @@ Go through all the points :
 
 ![](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/aztec-testnet/guide/docs/alert-ruleBC.png)
 
-### Test your Alarm service 
-Below example what happen when node is not receiveing  new blocks or just got down.
+### Testing Notification service  
+
+Below example what happen when node is not receiveing  new blocks or just got down
 
 ![](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/aztec-testnet/guide/docs/firing.png)  
 
-And if node got back to normal  
+Got back to normal operation
 
 ![](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/aztec-testnet/guide/docs/resolved.png)  
 
