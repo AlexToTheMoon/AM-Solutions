@@ -277,11 +277,11 @@ Go through all the points :
 
 ### Testing Notification service  
 
-Below example what happen when node is not receiveing  new blocks or just got down
+<p align="center">Below example what happen when node is not receiveing  new blocks or just got down</p>
 
 ![](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/aztec-testnet/guide/docs/firing.png)  
 
-Got back to normal operation
+<p align="center">Got back to normal operation</p>
 
 ![](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/aztec-testnet/guide/docs/resolved.png)  
 
