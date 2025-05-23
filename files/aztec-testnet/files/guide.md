@@ -106,8 +106,6 @@ rm prometheus.tar.gz && \
 mv prometheus-* prometheus && \
 sudo cp prometheus/prometheus /usr/local/bin/
 ```
-> After step above home folder will be created for config. The path to config will be: $HOME/prometheus/prometheus.yml
-
 ### Create Service file
 
 ```bash
@@ -129,7 +127,7 @@ EOF
 ```
 > In default Prometheus listening on port 9090, in it conflict with any other ports at your server, U can easily change it by adding flag --web.listen-address="0.0.0.0:<YOUR_PORT>" to prometheus service faile
 
-### Launch Prometheus and check status
+## Launch Prometheus and check status
 
 ```bash
 systemctl daemon-reload
@@ -141,29 +139,37 @@ sudo journalctl -u prometheusd.service -fn 50 -o cat
 "active (running)" means all good so far
 ![prom-status](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/grafana/prom-status.png)
 
-### Add Your metrics source to the Prometheus config file  
+### Import OTLP to the Prometheus config
+Insert the IP address of the server where OTLP is installed into the variable below
+```
+export OTLP_IP="<OTLP IP HERE>"
+```
+<sub>example : export OTLP_IP="151.211.147.201"</sub >  
 
-Here is 2 options:  
-1) node located at the same machine as prometheus   
-2) at any other server (in this case node has to broadcast metrics to public access)    
-Please use only one of the optons.
 
-Open config file and add our source/target. Remind that config file located at : $HOME/prometheus/prometheus.yml
+Overwrite the Prometheus config
+```
+sudo tee $HOME/prometheus/prometheus.yml << EOF
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
 
-```bash
-  - job_name: '<YOUR METRICS/PROJECT NAME>'
-    scheme: http
-    metrics_path: /metrics
+scrape_configs:
+  - job_name: "otel-collector"
     static_configs:
-#     - targets: ['localhost:<PORT>'] #IF VALIDATOR NODE LOCATED ON THE SAME SERVER
-      - targets: ['<IP-ADDRESS>:<PORT>'] #IF VALIDATOR NODE LOCATED AT ANOTHER SERVER
+      - targets: ['${OTLP_IP}:8889']
+EOF
 ```
 
-#### Save changes and restart Prometheus service
+#### Restart Prometheus service & check status
 ```bash
 sudo systemctl restart  prometheusd.service
 sudo systemctl status prometheusd.service
 ```
+## Check Prometheus importing OTLP metrics 
+Go http://<PROMETHEUS SERVR IP>:9090/targets 
+
+
 
 ### Install Grafana
 ```bash
