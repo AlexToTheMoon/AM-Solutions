@@ -96,12 +96,15 @@ If metrics appeared, follow next steps
 ### Install Prometheus
 ```bash
 cd $HOME
-curl -s https://api.github.com/repos/prometheus/prometheus/releases/latest | \
-grep browser_download_url | grep linux-amd64 | cut -d '"' -f 4 | wget -qi - \
-tar xfz prometheus-2.*.*tar.gz \
-rm $HOME/prometheus-2.*.*tar.gz \
-mv prometheus-2.* prometheus \
-sudo cp ~/prometheus/prometheus /usr/local/bin/
+url=$(curl -s https://api.github.com/repos/prometheus/prometheus/releases/latest \
+  | grep browser_download_url \
+  | grep linux-amd64.tar.gz \
+  | cut -d '"' -f 4) && \
+wget "$url" -O prometheus.tar.gz && \
+tar -xzf prometheus.tar.gz && \
+rm prometheus.tar.gz && \
+mv prometheus-* prometheus && \
+sudo cp prometheus/prometheus /usr/local/bin/
 ```
 > After step above home folder will be created for config. The path to config will be: $HOME/prometheus/prometheus.yml
 
