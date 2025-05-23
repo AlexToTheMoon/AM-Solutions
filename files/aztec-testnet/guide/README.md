@@ -187,7 +187,7 @@ First login credentials
 
 ### Add data source 
 
-On the sidebar go > `Connections → Add new connection `
+On the sidebar menu go: `Connections → Add new connection `
 
 Add name and IP of the server where Prometheus being operating + default port 9090 
 
