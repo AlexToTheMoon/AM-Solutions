@@ -269,8 +269,8 @@ Go through all the points :
 4. Create evaluation group and set time (5m or 10m) > Keep firing suggest keep NONE
 5. Recipient, choose Telegram
 6. Add Title and Description for notification message
+**Save Rule and Exit**
 
-**Save Rule and Exit**  
 ![](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/aztec-testnet/guide/docs/alert-rule.png)
 
 
