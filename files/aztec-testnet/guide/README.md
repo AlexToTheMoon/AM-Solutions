@@ -201,21 +201,21 @@ Success result as on picture below
 
 ![added-source](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/grafana/working-source.png)
 
-All created Data sources U can find at “Settings” button > Data sources
-
-![all-sources](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/grafana/data-sources.png) 
+All created Data sources can be found 
 
 ### Add Grafana dashboard
 
 ![dash-menu](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/grafana/add-dashboard.png)
 
 There is two options to add dashboards :  
-1) VIA JSON file  
-2) VIA CODE/ID wich available at grafana.com website and requered to add specific exporters for each dashboard..  
+ - VIA JSON file  
+ - VIA CODE/ID wich available at grafana.com website and requered to add specific exporters for each dashboard
+
+   Our BETA dashboard for AZTEC [HERE](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/aztec-testnet/guide/docs/AZTEC-beta.json) 
 
 ![add-dash](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/grafana/add-dash.png)  
 
-> After You press Load button, dashboard automatically will appear.
+> After Load button pressing, dashboard will appear automatically
 
 
 <p align="center">
