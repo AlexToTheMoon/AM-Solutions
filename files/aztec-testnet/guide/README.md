@@ -187,7 +187,7 @@ First login credentials
 
 ### Add data source 
 
-On the sidebar go > Connections > Add new connection 
+On the sidebar go > `Connections → Add new connection `
 
 Add name and IP of the server where Prometheus being operating + default port 9090 
 
@@ -201,7 +201,7 @@ Success result as on picture below
 
 ![added-source](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/grafana/working-source.png)
 
-All created Data sources can be found at  `Sidebar => Connections => Data sources`  
+All created Data sources can be found at  `Sidebar → Connections → Data sources`  
 
 ### Add Grafana dashboard
 
@@ -217,7 +217,8 @@ There is two options to add dashboards :
 
 > After Load button pressing, dashboard will appear automatically
 
-### Create Telegram Node health notification/alarm service
+### Create Telegram Node health notification/alarm service  
+
  - Find TG bot by handle **@BotFather**
  - Execute /start, than /newbot
  - Enter bot name, make sure it ends with **bot**
@@ -243,7 +244,15 @@ There is two options to add dashboards :
 
 ![id](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/Tenderduty/rebus/png/group-id.png)
 
+#### Add contactpoint to Grafana
+On the sidebar go `Alerting → Contact points → Create contact point`  
+ - Set name
+ - Choose Integration: Telegram
+ - Set API Token from previous steps
+ - Set Group ID to Chat ID from previous steps
+ - Save Contact point  
 
+![](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/aztec-testnet/guide/docs/tg-contact-point.png)
 
 
 
