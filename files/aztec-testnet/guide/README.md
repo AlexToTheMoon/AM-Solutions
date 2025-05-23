@@ -264,14 +264,16 @@ At Dashboard find block with name "AVG NR. BLOCKS IN 5 MIN"
 Go through all the points :  
 
 1. Set alert name (for example : Aztec)
-2. Set WHEN : Last , OF QUERY IS BELOW : 1
+2. Choose "Advanced option"
+- At Block B keep : Last Strict
+- At Block C set : Below , 1
 3. Create new folder (for example : Aztec)
 4. Create evaluation group and set time (5m or 10m) > Keep firing suggest keep NONE
 5. Recipient, choose Telegram
 6. Add Title and Description for notification message
 **Save Rule and Exit**
 
-![](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/aztec-testnet/guide/docs/alert-rule.png)
+![](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/aztec-testnet/guide/docs/alert-ruleBC.png)
 
 
 
