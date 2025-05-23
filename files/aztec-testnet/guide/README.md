@@ -185,13 +185,11 @@ First login credentials
 
 ![graf-login](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/grafana/graf-login.png)  
 
-### Add metrics provider to Grafana (in our case Prometheus)  
+### Add data source 
 
-Press Grafana logo on the left top corner and It will bring U to the main page, where we need to find DATA SOURCE field  
+On the sidebar go > Connections > Add new connection 
 
-![add-source](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/grafana/data-s.png ) 
-
-Add name and IP of the machine where You have installed Prometheus and default port 9090 If U haven`t changed it..  
+Add name and IP of the server where Prometheus being operating + default port 9090 
 
 ![adding-prom](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/grafana/adding-source.png)
 
