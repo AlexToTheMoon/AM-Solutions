@@ -76,8 +76,8 @@ Good logs example (last line)
 
 ### Setup metrics flow from Sequencer > OTLP
 
-Add metrics flag to the Sequencer node launch service
-Chnage <OTLP_SERVER_IP> to IP where OTLP located
+Add metrics flag to the Sequencer node  
+Change <OTLP_SERVER_IP> to IP address where is OTLP service operating
 
 > For Docker launch
 
@@ -87,16 +87,20 @@ Chnage <OTLP_SERVER_IP> to IP where OTLP located
 
 ```OTEL_EXPORTER_OTLP_METRICS_ENDPOINT: "http://<OTLP_SERVER_IP>:4318/v1/metrics"```
 
-Restart you Sequencer node and check metrics at http://<OTLP_SERVER_IP>:8889/metrics
+ - Restart you Sequencer node
+ -  check metrics at http://<OTLP_SERVER_IP>:8889/metrics
+
+If metrics appeared, follow next steps
+
 
 ### Install Prometheus
 ```bash
 cd $HOME
 curl -s https://api.github.com/repos/prometheus/prometheus/releases/latest | \
-grep browser_download_url | grep linux-amd64 | cut -d '"' -f 4 | wget -qi -
-tar xfz prometheus-2.*.*tar.gz
-rm $HOME/prometheus-2.*.*tar.gz
-mv prometheus-2.* prometheus
+grep browser_download_url | grep linux-amd64 | cut -d '"' -f 4 | wget -qi - \
+tar xfz prometheus-2.*.*tar.gz \
+rm $HOME/prometheus-2.*.*tar.gz \
+mv prometheus-2.* prometheus \
 sudo cp ~/prometheus/prometheus /usr/local/bin/
 ```
 > After step above home folder will be created for config. The path to config will be: $HOME/prometheus/prometheus.yml
