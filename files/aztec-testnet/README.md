@@ -1,7 +1,7 @@
 ## "AZTEC Network" Validator / Sequencer Node metrics + Grafana dashboard + TG Alarm
 * * *  
 
-Installation guide **[HERE](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/aztec-testnet/files/guide.md)**
+Installation guide **[HERE](https://github.com/AlexToTheMoon/AM-Solutions/blob/main/files/aztec-testnet/guide/README.md)**
 
 Download dashboard **[HERE]()** 
 
