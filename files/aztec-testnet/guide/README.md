@@ -162,7 +162,7 @@ EOF
 
 #### Restart Prometheus service & check status
 ```bash
-sudo systemctl restart  prometheusd.service
+sudo systemctl restart prometheusd.service
 sudo systemctl status prometheusd.service
 ```
 #### Check Prometheus importing OTLP metrics 
